@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <img src={prototyp}/>
+      <p>Det fungerar</p>
     </div>
   );
 }
