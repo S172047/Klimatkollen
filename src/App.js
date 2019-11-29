@@ -7,6 +7,7 @@ function App() {
     <div>
       <img src={prototyp}/>
       <p>Det fungerar</p>
+      <p>Sanna grundar en branch</p>
     </div>
   );
 }
