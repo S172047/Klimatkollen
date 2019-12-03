@@ -14,10 +14,10 @@ body {
 }
 
 .buttons { /* Knappar på Hem */
-    width: 12em;
-    margin-top: 4em;
-    margin-right: 1.5em;
-    margin-left: 1.5em;
+    width: 15vw;
+    margin-top: 12vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
 }
 
 .headerLink { /* Länkar i header */
@@ -32,8 +32,8 @@ body {
 }
 
 .jordgloben {
-    margin-top: 2em;
-    width: 18em;
+    margin-top: 6vh;
+    width: 20vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
