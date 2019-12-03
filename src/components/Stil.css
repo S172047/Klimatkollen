@@ -1,0 +1,40 @@
+Nav {
+    /* background-color: rgba(151, 65, 65, 0.5); */
+    background-size: cover;
+    color: white;
+}
+
+Nav h1 {
+    color: white;
+}
+
+body {
+    background-image: url("../images/bg_rymd.jpg") !important;
+    background-size: cover; /* Anpassar bildens upplösning efter skärmen */
+}
+
+.buttons { /* Knappar på Hem */
+    width: 12em;
+    margin-top: 4em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+.headerLink { /* Länkar i header */
+    margin-right: 1em;
+    color: white;
+}
+
+.jumbotron {
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.jordgloben {
+    margin-top: 2em;
+    width: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
