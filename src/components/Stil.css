@@ -24,7 +24,8 @@ a:hover img {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-    border-radius: 11%;
+    border-radius: 10%;
+    background-color: rgba(204,204,204,0.5)
 }
 
 .btn { /* Knappar i headern */
