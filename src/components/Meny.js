@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 
@@ -13,10 +13,15 @@ export default class Meny extends Component {
                     <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                                <Link className="headerLink" to="/">Hem</Link> 
-                                <Link className="headerLink" to="/koldioxid">Koldioxid</Link>
-                                <Link className="headerLink" to="/temperatur">Temperatur</Link>
-                                <Link className="headerLink" to="/glaciar">Glaciärer</Link>
+                                <Link className="linkstyle" to="/koldioxid">
+                                <Button variant="secondary" size="sm">KOLDIOXID</Button>
+                                </Link>
+                                <Link className="linkstyle" to="/temperatur">
+                                <Button variant="secondary" size="sm">TEMPERATUR</Button>
+                                </Link>
+                                <Link className="linkstyle" to="/glaciar">
+                                <Button variant="secondary" size="sm">GLACIÄRER</Button>
+                                </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

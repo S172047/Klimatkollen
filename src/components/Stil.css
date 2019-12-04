@@ -20,14 +20,25 @@ body {
     margin-left: 1.5vw;
 }
 
-.headerLink { /* Länkar i header */
-    margin-right: 1em;
-    color: white;
+a:hover img {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 11%;
+}
+
+.btn { /* Knappar i headern */
+    margin-left: 1em;
+}
+
+.btn-close {
+    float: right;
 }
 
 .jumbotron {
     margin-left: 1em;
     margin-right: 1em;
+    padding: 1rem !important;
 
 }
 
@@ -37,4 +48,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.linkstyle:hover {
+    text-decoration: none;
+    color: white;
 }
