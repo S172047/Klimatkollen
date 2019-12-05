@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/Klimatkollen/static/css/main.b185d3b3.chunk.css",
-    "main.js": "/Klimatkollen/static/js/main.47094812.chunk.js",
-    "main.js.map": "/Klimatkollen/static/js/main.47094812.chunk.js.map",
+    "main.css": "/Klimatkollen/static/css/main.da2039c7.chunk.css",
+    "main.js": "/Klimatkollen/static/js/main.4974165f.chunk.js",
+    "main.js.map": "/Klimatkollen/static/js/main.4974165f.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
     "runtime-main.js.map": "/Klimatkollen/static/js/runtime-main.3d194f67.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Klimatkollen/static/css/2.17e5ed98.chunk.css",
     "static/js/2.bb146b04.chunk.js": "/Klimatkollen/static/js/2.bb146b04.chunk.js",
     "static/js/2.bb146b04.chunk.js.map": "/Klimatkollen/static/js/2.bb146b04.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.a2794f02a0800a84e46a5bc0f9af4927.js": "/Klimatkollen/precache-manifest.a2794f02a0800a84e46a5bc0f9af4927.js",
+    "precache-manifest.1177291b79642266c07f9e25850d3c8a.js": "/Klimatkollen/precache-manifest.1177291b79642266c07f9e25850d3c8a.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.b185d3b3.chunk.css.map": "/Klimatkollen/static/css/main.b185d3b3.chunk.css.map",
-    "static/media/Stil.css": "/Klimatkollen/static/media/bg_rymd.d6710775.jpg",
-    "static/media/button_glaciar.png": "/Klimatkollen/static/media/button_glaciar.ed7fa48b.png",
-    "static/media/button_koldioxid.png": "/Klimatkollen/static/media/button_koldioxid.c7ec8b9b.png",
-    "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.164c80af.png",
+    "static/css/main.da2039c7.chunk.css.map": "/Klimatkollen/static/css/main.da2039c7.chunk.css.map",
+    "static/media/Stil.css": "/Klimatkollen/static/media/bg_rymd.14d0b8d0.jpg",
+    "static/media/button_glaciar.png": "/Klimatkollen/static/media/button_glaciar.d0336467.png",
+    "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.3c5fea2b.png",
     "static/media/closebutton.png": "/Klimatkollen/static/media/closebutton.5530ad7f.png",
     "static/media/jordglob.png": "/Klimatkollen/static/media/jordglob.ce41be94.png"
   },
@@ -24,7 +23,7 @@
     "static/js/runtime-main.3d194f67.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.bb146b04.chunk.js",
-    "static/css/main.b185d3b3.chunk.css",
-    "static/js/main.47094812.chunk.js"
+    "static/css/main.da2039c7.chunk.css",
+    "static/js/main.4974165f.chunk.js"
   ]
 }
