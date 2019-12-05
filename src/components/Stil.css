@@ -9,8 +9,27 @@ Nav h1 {
 }
 
 body {
-    background-image: url("../images/bg_rymd.jpg") !important;
+    background-image: url("../images/bg_rymd.jpg");
+    background-repeat: no-repeat;
     background-size: cover; /* Anpassar bildens upplösning efter skärmen */
+    background-color: #10132D !important;
+}
+
+.klimatlogga { /* Klimatkollen logga överst till vänster */
+    width: 14vw;
+}
+
+.btn-meny {
+    width: 8.2vw !important;
+    height: 2.5vw !important;
+    font-size: 1vw !important;
+    margin-left: 1vw;
+}
+
+#dropdown-basic-button {
+    width: 7vw !important;
+    height: 2.5vw !important;
+    font-size: 1vw !important;
 }
 
 .buttons { /* Knappar på Hem */
@@ -28,13 +47,9 @@ a:hover img {
     background-color: rgba(204,204,204,0.5)
 }
 
-.btn { /* Knappar i headern */
-    margin-left: 1em;
-}
-
 .btn-close { /* Rund knapp med kryss för att återgå till startsidan*/
     float: right;
-    width: 1.5em;
+    width: 2em;
 }
 
 .jumbotron {
