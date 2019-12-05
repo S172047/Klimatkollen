@@ -3,7 +3,7 @@ import {  Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import Diagram from '../images/dia.jpg'
+import Diagram from '../images/diag.png'
 
 export default class Koldioxid extends Component {
     render() {
