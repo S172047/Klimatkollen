@@ -17,7 +17,7 @@ export default class Glaciar extends Component {
                 </Row>
                 <Row>
                 <Col>
-                <h2>Glaciärer</h2>
+                <h2>Havsnivåer</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 

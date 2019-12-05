@@ -17,7 +17,7 @@ export default class Koldioxid extends Component {
                 </Row>
                 <Row>
                 <Col>
-                <h2>Koldioxid</h2>
+                <h2>Utsläpp</h2>
                 <p>
                 Koldioxid är en viktig gas för växter. Du har säkert hört om fotosyntesen, där växter med hjälp av solenergi och 
                 vatten omvandlar koldioxid till druvsocker, ett näringsämne för växterna. 
