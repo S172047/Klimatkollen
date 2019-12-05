@@ -3,6 +3,7 @@ import {  Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
+import Diagram from '../images/dia.jpg'
 
 export default class Koldioxid extends Component {
     render() {
@@ -34,7 +35,9 @@ export default class Koldioxid extends Component {
                 I tabellen kan du läsa om olika typer av utsläpp som ökar koldioxidmängden i atmosfären:
                 </p>
                 </Col>
-                <Col></Col>
+                <Col>
+                    <img className="diagram_img" src={Diagram} alt="Tillfällig bild på diagram" />
+                </Col>
                 </Row>
             </Jumbotron>
         )

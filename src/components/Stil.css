@@ -53,10 +53,20 @@ a:hover img {
 }
 
 .jumbotron {
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: 1rem !important;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    padding: 1vw !important;
+    background-color: white !important;
+    font-size: 1.1vw !important;
+}
 
+.jumbotron p {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.jumbotron h2 {
+    margin-left: 2vw;
 }
 
 .jordgloben {
@@ -70,4 +80,8 @@ a:hover img {
 .linkstyle:hover {
     text-decoration: none;
     color: white;
+}
+
+.diagram_img {
+    width: 40vw;
 }
