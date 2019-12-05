@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Container, Row, Col, Image, Button} from 'react-bootstrap';
+import {  Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
+import ButtonClose from '../images/closebutton.png'
 
 export default class Koldioxid extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class Koldioxid extends Component {
                 <Row>
                     <Col>
                         <Link to="/">
-                        <Button className="btn-close"variant="dark" size="sm">X</Button>
+                        <img className="btn-close" src={ButtonClose} alt="Knapp för att återgå till startsidan" />
                         </Link>
                     </Col>
                 </Row>
@@ -18,16 +19,19 @@ export default class Koldioxid extends Component {
                 <Col>
                 <h2>Koldioxid</h2>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Koldioxid är en viktig gas för växter. Du har säkert hört om fotosyntesen, där växter med hjälp av solenergi och 
+                vatten omvandlar koldioxid till druvsocker, ett näringsämne för växterna. 
+                Restprodukten blir syre som används av djur och människor. Naturen har skapat en perfekt cirkel som fungerar när den 
+                är i balans. När växter och djur dör förmultnar de. Efter miljontalsår hamnar alla rester djupare och djupare in i marken och 
+                förvandlas så småningom till fossiler. Riktigt gamla fossiler blir till petroleum och naturgas. 
+                Av dessa kan människan idag utvinna olika slag av bränslen, som alla kallas som ”fossila bränslen”.
                 </p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                När människan använder dessa miljoner år gamla fossila bränslen i olika ändamål frigörs vid förbränningen koldioxid 
+                som hamnar ut i luften, atmosfären. Plötsligt finns det mycket mer koldioxid i luften än vad växtriket efterfrågar.
+                Det extra koldioxid bildar ett extra gaslager, som ett tak, som hindrar värme att stråla upp till ozonlagret. 
+                Då stannar värmen istället nära marken och ökar temperaturen på hela planeten.
+                I tabellen kan du läsa om olika typer av utsläpp som ökar koldioxidmängden i atmosfären:
                 </p>
                 </Col>
                 <Col></Col>

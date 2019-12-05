@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {  Jumbotron, Container, Row, Col, Image, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
+import ButtonClose from '../images/closebutton.png'
 
 export default class Glaciar extends Component {
     render() {
@@ -10,13 +11,13 @@ export default class Glaciar extends Component {
                 <Row>
                     <Col>
                         <Link to="/">
-                        <Button className="btn-close"variant="dark" size="sm">X</Button>
+                        <img className="btn-close" src={ButtonClose} alt="Knapp för att återgå till startsidan" />
                         </Link>
                     </Col>
                 </Row>
                 <Row>
                 <Col>
-                <h2>GLACIÄRER</h2>
+                <h2>Glaciärer</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 

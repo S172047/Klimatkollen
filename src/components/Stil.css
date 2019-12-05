@@ -32,8 +32,9 @@ a:hover img {
     margin-left: 1em;
 }
 
-.btn-close {
+.btn-close { /* Rund knapp med kryss för att återgå till startsidan*/
     float: right;
+    width: 1.5em;
 }
 
 .jumbotron {
