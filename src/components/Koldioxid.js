@@ -11,13 +11,13 @@ export default class Koldioxid extends Component {
             <Jumbotron>
                 <Row>
                     <Col>
-                        <Link to="/">
+                        <Link to="/Hem">
                         <img className="btn-close" src={ButtonClose} alt="Knapp för att återgå till startsidan" />
                         </Link>
                     </Col>
                 </Row>
                 <Row>
-                <Col>
+                    <Col>
                 <h2>Utsläpp</h2>
                 <p>
                 Koldioxid är en viktig gas för växter. Du har säkert hört om fotosyntesen, där växter med hjälp av solenergi och 
@@ -34,10 +34,18 @@ export default class Koldioxid extends Component {
                 Då stannar värmen istället nära marken och ökar temperaturen på hela planeten.
                 I tabellen kan du läsa om olika typer av utsläpp som ökar koldioxidmängden i atmosfären:
                 </p>
-                </Col>
-                <Col>
-                    <img className="diagram_img" src={Diagram} alt="Tillfällig bild på diagram" />
-                </Col>
+                    </Col>
+                    <Col>
+                        <img className="diagram_img" src={Diagram} alt="Tillfällig bild på diagram" />
+                    </Col>
+                </Row>
+                    <Col>
+                    <p>
+                    Här ska komponent för barchart placeras
+                    </p>
+                    </Col>
+                <Row>
+
                 </Row>
             </Jumbotron>
         )

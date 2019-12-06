@@ -10,7 +10,7 @@ export default class Temperatur extends Component {
             <Jumbotron>
                 <Row>
                     <Col>
-                        <Link to="/">
+                        <Link to="/Hem">
                         <img className="btn-close" src={ButtonClose} alt="Knapp för att återgå till startsidan" />
                         </Link>
                     </Col>

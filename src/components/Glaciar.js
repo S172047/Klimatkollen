@@ -3,6 +3,7 @@ import {  Jumbotron, Container, Row, Col, Image, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
+import SeaGlac from './SeaGlacLevel'
 
 export default class Glaciar extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class Glaciar extends Component {
             <Jumbotron>
                 <Row>
                     <Col>
-                        <Link to="/">
+                        <Link to="/Hem">
                         <img className="btn-close" src={ButtonClose} alt="Knapp för att återgå till startsidan" />
                         </Link>
                     </Col>
@@ -32,6 +33,9 @@ export default class Glaciar extends Component {
                 </p>
                 </Col>
                 <Col></Col>
+                </Row>
+                <Row>
+                <Col><SeaGlac /></Col>
                 </Row>
             </Jumbotron>
         )

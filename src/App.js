@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Hem from './components/Hem';
 import Koldioxid from './components/Koldioxid';
 import Temperatur from './components/Temperatur';
@@ -14,7 +14,8 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route exact path="/" component={Hem} />
+        <Redirect from="/" exact to="/Hem"></Redirect>
+        <Route path="/Hem" component={Hem} />
         <Route path="/koldioxid" component={Koldioxid} />
         <Route path="/temperatur" component={Temperatur} />
         <Route path="/glaciar" component={Glaciar} />
