@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Label, ResponsiveContainer } from "recharts";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 import SeaLevel from '../json/Dataset4_SeaLevel'
 import GlaciarData from '../json/Dataset3_GlaciersSize'
 

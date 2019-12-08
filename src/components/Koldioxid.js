@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
+import {  Jumbotron, Row, Col} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import Diagram from '../images/diag.png'
+import FactoryPic from '../images/factory.jpg'
 
 export default class Koldioxid extends Component {
     render() {
@@ -36,16 +36,15 @@ export default class Koldioxid extends Component {
                 </p>
                     </Col>
                     <Col>
-                        <img className="diagram_img" src={Diagram} alt="Tillfällig bild på diagram" />
+                        <img className="jumbotronpic" src={FactoryPic} alt="Tillfällig bild" />
                     </Col>
                 </Row>
+                <Row>
                     <Col>
                     <p>
-                    Här ska komponent för barchart placeras
+                    [ Här under ska komponent för koldioxiddiagram placeras. ]
                     </p>
                     </Col>
-                <Row>
-
                 </Row>
             </Jumbotron>
         )

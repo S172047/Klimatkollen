@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Container, Row, Col, Image, Button} from 'react-bootstrap';
+import {  Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SeaGlac from './SeaGlacLevel'
+import GlaciarPic from '../images/glaciars.jpg'
 
 export default class Glaciar extends Component {
     render() {
@@ -30,9 +31,15 @@ export default class Glaciar extends Component {
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat.
                 </p>
                 </Col>
-                <Col></Col>
+                <Col>
+                    <img className="jumbotronpic" src={GlaciarPic} alt="Tillfällig bild" />
+                </Col>
                 </Row>
                 <Row>
                 <Col><SeaGlac /></Col>

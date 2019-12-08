@@ -26,12 +26,6 @@ body {
     margin-left: 1vw;
 }
 
-#dropdown-basic-button {
-    width: 7vw !important;
-    height: 2.5vw !important;
-    font-size: 1vw !important;
-}
-
 .buttons { /* Knappar på Hem */
     width: 15vw;
     margin-top: 12vh;
@@ -67,6 +61,7 @@ a:hover img {
 
 .jumbotron h2 {
     margin-left: 2vw;
+    font-size: 2vw !important;
 }
 
 .jordgloben {
@@ -77,11 +72,20 @@ a:hover img {
     margin-right: auto;
 }
 
-.linkstyle:hover {
-    text-decoration: none;
-    color: white;
+.linkstyle {
+    color: black !important;
 }
 
-.diagram_img {
-    width: 40vw;
+.dropdown-item.active, .dropdown-item:active {
+    background-color: white !important;
+}
+
+.linkstyle:hover {
+    text-decoration: none;
+}
+
+.jumbotronpic {
+    margin-left: 3vw;
+    margin-top: 8vh;
+    width: 35vw;
 }
