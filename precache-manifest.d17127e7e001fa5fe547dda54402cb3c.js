@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "699c6817ac859078e9fa9c175cc4eb1e",
+    "revision": "3bacfe1bb45ea3320ccfb6137b52beac",
     "url": "/Klimatkollen/index.html"
   },
   {
-    "revision": "2bdba8d8eb778926e748",
+    "revision": "cd95dd00e31989064710",
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "0508385c851662443d29",
-    "url": "/Klimatkollen/static/css/main.679aab5a.chunk.css"
+    "revision": "6b7425f4774727062b02",
+    "url": "/Klimatkollen/static/css/main.c48025bb.chunk.css"
   },
   {
-    "revision": "2bdba8d8eb778926e748",
-    "url": "/Klimatkollen/static/js/2.7f92df70.chunk.js"
+    "revision": "cd95dd00e31989064710",
+    "url": "/Klimatkollen/static/js/2.c3af990c.chunk.js"
   },
   {
-    "revision": "0508385c851662443d29",
-    "url": "/Klimatkollen/static/js/main.42d1e4f5.chunk.js"
+    "revision": "6b7425f4774727062b02",
+    "url": "/Klimatkollen/static/js/main.a942fbe2.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
@@ -40,8 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/closebutton.5530ad7f.png"
   },
   {
-    "revision": "1418051abfdf4c9ce1f0d5ba85ebb3b9",
-    "url": "/Klimatkollen/static/media/diag.1418051a.png"
+    "revision": "9170125830cb8ca44bf36a4f18ddb4aa",
+    "url": "/Klimatkollen/static/media/factory.91701258.jpg"
+  },
+  {
+    "revision": "362a3e6d6dc43cfb1b5cc7ed1debb09a",
+    "url": "/Klimatkollen/static/media/glaciars.362a3e6d.jpg"
   },
   {
     "revision": "c2cd7780a5c610f0b57fe9a8dbaca720",
@@ -50,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9b852a105287003eca95c5463aa9386",
     "url": "/Klimatkollen/static/media/logga.e9b852a1.png"
+  },
+  {
+    "revision": "7bcbd695d85f11d5b217b66e9c6bb617",
+    "url": "/Klimatkollen/static/media/sky.7bcbd695.jpg"
   }
 ]);
