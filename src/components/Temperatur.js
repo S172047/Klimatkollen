@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SkyPic from '../images/sky.jpg'
+import TemperaturData from "./TemperaturData"
 
 export default class Temperatur extends Component {
     render() {
@@ -41,9 +42,7 @@ export default class Temperatur extends Component {
                 </Row>
                 <Row>
                     <Col>
-                    <p>
-                    [ Här under ska komponent för temperaturdiagram placeras. ]
-                    </p>
+                    <TemperaturData />
                     </Col>
                 </Row>
             </Jumbotron>
