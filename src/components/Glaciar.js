@@ -41,8 +41,10 @@ export default class Glaciar extends Component {
                     <img className="jumbotronpic" src={GlaciarPic} alt="Tillfällig bild" />
                 </Col>
                 </Row>
-                <Row>
-                <Col><SeaGlac /></Col>
+                <Row className="justify-content-md-center">
+                <Col md="auto">
+                    <SeaGlac />
+                </Col>
                 </Row>
             </Jumbotron>
         )

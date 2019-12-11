@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 import Co2Data from '../json/Dataset1_CO2'
 
@@ -15,30 +15,30 @@ constructor() {
 
   render() {
 
-    const data = [
-        {
-          name: 'Cement', uv: 4000, pv: 2400,
-        },
-        {
-          name: 'Gasfackling', uv: 4000, pv: 2400,
-        },
-        {
-          name: 'Energigas', uv: 3000, pv: 1398,
-        },
-        {
-          name: 'Flytande bränsle', uv: 2000, pv: 9800,
-        },
-        {
-          name: 'Fast bränsle', uv: 2780, pv: 3908,
-        },
+    const BarChartData = [
+      {
+        name: 'Cement', uv: 4000, pv: 2400,
+      },
+      {
+        name: 'Gas Flaring', uv: 3000, pv: 1398,
+      },
+      {
+        name: 'Gas Fuel', uv: 2000, pv: 9800,
+      },
+      {
+        name: 'Liquid Fuel', uv: 2780, pv: 3908,
+      },
+      {
+        name: 'Solid Fuel', uv: 1890, pv: 4800,
+      },
       ];
     return (
       <BarChart
         width={500}
         height={300}
-        data={data}
+        data={BarChartData}
         margin={{
-          top: 5, right: 30, left: 20, bottom: 5,
+          top: 5, right: 20, left: 20, bottom: 5,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />

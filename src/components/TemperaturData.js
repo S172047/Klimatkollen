@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AreaChart, Area, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 import TempData from '../json/Dataset2_GlobalTemperature'
 
 export default class TempDiagram extends Component {
@@ -37,13 +37,8 @@ constructor() {
     return (
       <React.Fragment>
         <h2>
-          TEMPERATUR
+          Globala temperaturer från 1881 till 2016
         </h2>
-  
-        
-        
-        
-        
         <AreaChart
           width={1100}
           height={400}

@@ -40,10 +40,10 @@ export default class Temperatur extends Component {
                     <img className="jumbotronpic" src={SkyPic} alt="Tillfällig bild" />
                 </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="justify-content-md-center">
+                <Col md="auto">
                     <TemperaturData />
-                    </Col>
+                </Col>
                 </Row>
             </Jumbotron>
         )

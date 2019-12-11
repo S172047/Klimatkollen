@@ -40,8 +40,10 @@ export default class Koldioxid extends Component {
                         <img className="jumbotronpic" src={FactoryPic} alt="Tillfällig bild" />
                     </Col>
                 </Row>
-                <Row>
-                    <Col><Co2Emissions /></Col>
+                <Row className="justify-content-md-center">
+                <Col md="auto">
+                    <Co2Emissions />
+                </Col>
                 </Row>
             </Jumbotron>
         )
