@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
-import SeaLevel from '../json/Dataset4_SeaLevel'
+import SeaLevelData from '../json/Dataset4_SeaLevel'
 import GlaciarData from '../json/Dataset3_GlaciersSize'
 
 export default class SeaGlacLevel extends Component {
@@ -9,7 +9,7 @@ constructor() {
   super()
   this.state = {
     glaciar: GlaciarData,
-    sea: SeaLevel
+    sea: SeaLevelData
   }
 }
 
@@ -48,8 +48,6 @@ constructor() {
         value: data.GMSL
       })
     );
-
-    console.log(series);
 
     return (
       <React.Fragment>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import FactoryPic from '../images/factory.jpg'
+import Co2Emissions from './KoldioxidData'
 
 export default class Koldioxid extends Component {
     render() {
@@ -40,11 +41,7 @@ export default class Koldioxid extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                    <p>
-                    [ Här under ska komponent för koldioxiddiagram placeras. ]
-                    </p>
-                    </Col>
+                    <Col><Co2Emissions /></Col>
                 </Row>
             </Jumbotron>
         )

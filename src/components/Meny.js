@@ -11,7 +11,7 @@ export default class Meny extends Component {
                         <Navbar.Brand>
                         <img className="klimatlogga" src={Logga} alt="Logotype" />
                         </Navbar.Brand>
-                    <Navbar.Toggle />
+                    <Navbar.Toggle /> {/* Kolla upp om den behövs */}
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
                         <ButtonToolbar>
@@ -24,7 +24,7 @@ export default class Meny extends Component {
                                 key={direction}>
                                     <Dropdown.Item eventKey="1">
                                         <Link className="linkstyle" to="/koldioxid">Utsläpp</Link>
-                                    </Dropdown.Item> 
+                                    </Dropdown.Item>
                                     <Dropdown.Item eventKey="2">
                                         <Link className="linkstyle" to="/temperatur">Temperaturer</Link>
                                     </Dropdown.Item>
