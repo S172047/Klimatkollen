@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd77436d76cb4dcffc9de97bf33fbaec",
+    "revision": "ea0f6ed7bfac7aa423829dd364d3dad6",
     "url": "/Klimatkollen/index.html"
   },
   {
-    "revision": "e8072fc5d04cf5a3addc",
+    "revision": "e7b9b2cdd60359827a07",
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "95b91b038f2841e72b39",
-    "url": "/Klimatkollen/static/css/main.c48025bb.chunk.css"
+    "revision": "480edf555e505168f243",
+    "url": "/Klimatkollen/static/css/main.75fc7d86.chunk.css"
   },
   {
-    "revision": "e8072fc5d04cf5a3addc",
-    "url": "/Klimatkollen/static/js/2.0a2baba3.chunk.js"
+    "revision": "e7b9b2cdd60359827a07",
+    "url": "/Klimatkollen/static/js/2.cbb5d99f.chunk.js"
   },
   {
-    "revision": "95b91b038f2841e72b39",
-    "url": "/Klimatkollen/static/js/main.95a43432.chunk.js"
+    "revision": "480edf555e505168f243",
+    "url": "/Klimatkollen/static/js/main.4ef1b0a7.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
@@ -40,23 +40,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/closebutton.5530ad7f.png"
   },
   {
-    "revision": "9170125830cb8ca44bf36a4f18ddb4aa",
-    "url": "/Klimatkollen/static/media/factory.91701258.jpg"
-  },
-  {
-    "revision": "362a3e6d6dc43cfb1b5cc7ed1debb09a",
-    "url": "/Klimatkollen/static/media/glaciars.362a3e6d.jpg"
-  },
-  {
     "revision": "c2cd7780a5c610f0b57fe9a8dbaca720",
     "url": "/Klimatkollen/static/media/jordglob.c2cd7780.png"
   },
   {
-    "revision": "e9b852a105287003eca95c5463aa9386",
-    "url": "/Klimatkollen/static/media/logga.e9b852a1.png"
+    "revision": "ca0b2b85b442dd8cb832bc9d43223b72",
+    "url": "/Klimatkollen/static/media/koldioxid.ca0b2b85.jpeg"
   },
   {
-    "revision": "7bcbd695d85f11d5b217b66e9c6bb617",
-    "url": "/Klimatkollen/static/media/sky.7bcbd695.jpg"
+    "revision": "e9b852a105287003eca95c5463aa9386",
+    "url": "/Klimatkollen/static/media/logga.e9b852a1.png"
   }
 ]);
