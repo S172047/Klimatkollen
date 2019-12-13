@@ -9,14 +9,14 @@ constructor() {
     super()
     this.state = {
     co2: Co2Data,
-    year1state: 1950,
-    year2state: 2000,
+    year1state: 1970,
+    year2state: 2010,
     indexYear1: 0,
-    indexYear2: 263,
-    indexYear1handled: 200,
-    indexYear2handled: 250,
-    yearInputValue1: 1950,
-    yearInputValue2: 2000
+    indexYear2: 0,
+    indexYear1handled: 219,
+    indexYear2handled: 259,
+    yearInputValue1: 1970,
+    yearInputValue2: 2010
     }
 }
 
@@ -50,7 +50,10 @@ this.setState({
   indexYear2: index2,
   yearInputValue2: Year
 })
+// console.log(this.state.indexYear1)
+console.log(this.state.indexYear2)
 };
+
 
 handleYearFilter = () => {
   if (this.state.indexYear1 !== -1 && this.state.indexYear2 !== -1) {
@@ -81,16 +84,16 @@ handleYearFilter = () => {
         name: 'Cement', E1: emission1["Cement"], E2: emission2["Cement"],
       },
       {
-        name: 'Gas Flaring', E1: emission1["Gas Flaring"], E2: emission2["Gas Flaring"],
+        name: 'Gasfackling', E1: emission1["Gas Flaring"], E2: emission2["Gas Flaring"],
       },
       {
-        name: 'Gas Fuel', E1: emission1["Gas Fuel"], E2: emission2["Gas Fuel"],
+        name: 'Energigaser', E1: emission1["Gas Fuel"], E2: emission2["Gas Fuel"],
       },
       {
-        name: 'Liquid Fuel', E1: emission1["Liquid Fuel"], E2: emission2["Liquid Fuel"],
+        name: 'Flytande bränsle', E1: emission1["Liquid Fuel"], E2: emission2["Liquid Fuel"],
       },
       {
-        name: 'Solid Fuel', E1: emission1["Solid Fuel"], E2: emission2["Solid Fuel"],
+        name: 'Fast bränsle', E1: emission1["Solid Fuel"], E2: emission2["Solid Fuel"],
       },
       ];
 
@@ -110,7 +113,7 @@ handleYearFilter = () => {
         </div>
 
         <BarChart
-          width={500}
+          width={600}
           height={300}
           data={BarChartData}
           margin={{
@@ -121,8 +124,8 @@ handleYearFilter = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar name={this.state.year1state} dataKey="coKey1" fill="#8884d8" />
-          <Bar name={this.state.year2state} dataKey="coKey2" fill="#82ca9d" />
+          <Bar name={this.state.year1state} dataKey="E1" fill="#89BE4A" />
+          <Bar name={this.state.year2state} dataKey="E2" fill="#FABF4F" />
         </BarChart>
       </React.Fragment>
     );
