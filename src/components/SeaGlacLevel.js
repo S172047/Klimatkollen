@@ -16,10 +16,10 @@ constructor() {
   render() {
 
     let glaciercont = this.state.glaciar.filter(
-      x => x.Year > 1945 && x.Year <= 2010
+      x => x.Year > 1944 && x.Year <= 2010
     );
     let sealevelcont = this.state.sea.filter(
-      x => parseInt(x.Time) > 1945 && parseInt(x.Time) <= 2010
+      x => parseInt(x.Time) > 1944 && parseInt(x.Time) <= 2010
     );
 
     let series = [
@@ -52,7 +52,7 @@ constructor() {
     return (
       <React.Fragment>
         <h2>
-          Glaciärstorlek i jämförelse med havsnivå
+          Glaciärstorlek i jämförelse med havsnivå från år 1945 till 2010
         </h2>
         {/* <ResponsiveContainer width="80vw" height="40vh"> */}
         <LineChart

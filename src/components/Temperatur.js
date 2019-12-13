@@ -3,7 +3,7 @@ import {  Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import SkyPic from '../images/sky.jpg'
+// import SkyPic from '../images/sky.jpg'
 import TemperaturData from "./TemperaturData"
 
 export default class Temperatur extends Component {
@@ -18,30 +18,26 @@ export default class Temperatur extends Component {
                     </Col>
                 </Row>
                 <Row>
-                <Col>
-                <h2>Temperaturer</h2>
+                <Col className="coltext">
+                <h1>Temperaturens påverkan</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Under de senaste 100 åren har jordens medeltemperatur ökat med nästan 1 grad. Nu är målet att den inte skall bli 
+                mer än 2 grader. Ibland kan det kännas att en grad inte är så mycket. Men en grads medeltemperatur betyder i 
+                själva verket flera graders variation runt om i världen. Extrema väderförhållanden kommer att öka. Vi hör redan 
+                idag om ökade stormar, mer torka och katastrofer runt om i världen.
                 </p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Många ekosystem är oerhört känsliga för temperaturförändringar och redan nu har över hälften av världens alla 
+                ekosystem påverkats, då människan höjt temperaturen med 1 grad.  Forskning visar att om temperaturen ökar mer 
+                än 3 grader, så ökar den därefter av egen kraft och människan kan inte stoppa det. 
                 </p>
                 </Col>
                 <Col>
-                    <img className="jumbotronpic" src={SkyPic} alt="Tillfällig bild" />
+                    {/* <img className="jumbotronpic" src={SkyPic} alt="Tillfällig bild" /> */}
                 </Col>
                 </Row>
-                <Row className="justify-content-md-center">
-                <Col md="auto">
+                <Row>
+                <Col>
                     <TemperaturData />
                 </Col>
                 </Row>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SeaGlac from './SeaGlacLevel'
-import GlaciarPic from '../images/glaciars.jpg'
+// import GlaciarPic from '../images/glaciars.jpg'
 
 export default class Glaciar extends Component {
     render() {
@@ -18,31 +18,24 @@ export default class Glaciar extends Component {
                     </Col>
                 </Row>
                 <Row>
-                <Col>
-                <h2>Havsnivåer</h2>
+                <Col className="coltext">
+                <h1>Smältande glaciärer och stigande havsnivåer</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                På jorden finns det drygt 21 miljoner kubikkilometer (km3) is.
+                Om all världens is smälter och rinner ner i havet, skulle havsnivån stiga med 110 meter.
                 </p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat.
+                Före år 2100 beräknar forskarna att havsytan kommer att stiga över en meter. Det ger konsekvenser 
+                för hundratalsmiljoner människor som bor vid havet runtom i världen. Speciellt drabbade blir folk som 
+                bor i små önationer.
                 </p>
                 </Col>
                 <Col>
-                    <img className="jumbotronpic" src={GlaciarPic} alt="Tillfällig bild" />
+                    {/* <img className="jumbotronpic" src={GlaciarPic} alt="Tillfällig bild" /> */}
                 </Col>
                 </Row>
-                <Row className="justify-content-md-center">
-                <Col md="auto">
+                <Row>
+                <Col>
                     <SeaGlac />
                 </Col>
                 </Row>

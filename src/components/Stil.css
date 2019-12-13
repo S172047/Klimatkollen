@@ -1,5 +1,4 @@
 Nav {
-    /* background-color: rgba(151, 65, 65, 0.5); */
     background-size: cover;
     color: white;
 }
@@ -11,11 +10,11 @@ Nav h1 {
 body {
     background-image: url("../images/bg_rymd.jpg");
     background-repeat: no-repeat;
-    background-size: cover; /* Anpassar bildens upplösning efter skärmen */
+    background-size: cover;
     background-color: #10132D !important;
 }
 
-.klimatlogga { /* Klimatkollen logga överst till vänster */
+.klimatlogga {
     width: 14vw;
 }
 
@@ -41,7 +40,7 @@ a:hover img {
     background-color: rgba(204,204,204,0.5)
 }
 
-.btn-close { /* Rund knapp med kryss för att återgå till startsidan*/
+.btn-close {
     float: right;
     width: 2em;
 }
@@ -59,9 +58,20 @@ a:hover img {
     margin-right: 2vw;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
     margin-left: 2vw;
     font-size: 2vw !important;
+}
+
+h2 {
+    font-size: 1.5vw !important;
+    margin-left: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+}
+
+.coltext {
+    margin-top: 3vh;
 }
 
 .jordgloben {
@@ -88,4 +98,24 @@ a:hover img {
     margin-left: 3vw;
     margin-top: 8vh;
     width: 35vw;
+}
+
+.jumbotronpic2 {
+    margin-left: 3vw;
+    margin-top: 0vh;
+    width: 35vw;
+}
+
+.hoverknapp {
+    width: 2vw;
+    margin-left: 1vw;
+    opacity: 85%;
+}
+
+.hoverknapp:hover {
+    opacity: 100%;
+}
+
+.alignleft {
+    text-align: left !important;
 }
