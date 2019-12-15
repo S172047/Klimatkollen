@@ -15,13 +15,7 @@ body {
 }
 
 .klimatlogga {
-    width: 14vw;
-}
-
-.btn-meny {
-    width: 8.2vw !important;
-    height: 2.5vw !important;
-    font-size: 1vw !important;
+    width: 15vw;
     margin-left: 1vw;
 }
 
@@ -70,8 +64,21 @@ h2 {
     padding-bottom: 4vh;
 }
 
+h3 {
+    font-size: 1.5vw !important;
+    padding-bottom: 3vh;
+}
+
 .coltext {
     margin-top: 3vh;
+}
+
+.col_rull {
+    margin-right: 2.5vw;
+}
+
+.input {
+    width: 12vw !important;
 }
 
 .jordgloben {
@@ -108,7 +115,7 @@ h2 {
 
 .hoverknapp {
     width: 2vw;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     opacity: 85%;
 }
 

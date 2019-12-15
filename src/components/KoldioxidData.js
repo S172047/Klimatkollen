@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-
 import Co2Data from '../json/Dataset1_CO2'
 
 export default class Co2Emissions extends PureComponent {
@@ -81,16 +80,16 @@ handleYearFilter = () => {
 
     const BarChartData = [
       {
-        name: 'Cement', E1: emission1["Cement"], E2: emission2["Cement"],
-      },
-      {
-        name: 'Gasfackling', E1: emission1["Gas Flaring"], E2: emission2["Gas Flaring"],
-      },
-      {
         name: 'Energigaser', E1: emission1["Gas Fuel"], E2: emission2["Gas Fuel"],
       },
       {
         name: 'Flytande bränsle', E1: emission1["Liquid Fuel"], E2: emission2["Liquid Fuel"],
+      },
+      {
+        name: 'Cement', E1: emission1["Cement"], E2: emission2["Cement"],
+      },
+      {
+        name: 'Gasfackling', E1: emission1["Gas Flaring"], E2: emission2["Gas Flaring"],
       },
       {
         name: 'Fast bränsle', E1: emission1["Solid Fuel"], E2: emission2["Solid Fuel"],
@@ -99,16 +98,16 @@ handleYearFilter = () => {
 
     return (
       <React.Fragment>
-        <div className="outside div" style={{width:"50%"}}>
-          <div className="ui input" 
-              style={{marginTop:"20px",marginBottom:"20px",marginRight:"20px",marginLeft:"70px"}}>
-              <input type ="text" placeholder="Från år..." onChange={this.handleYearInput1} />
+        <div className="outside div" style={{width:"100%"}}>
+          <div className="ui input"
+            style={{ marginTop: "20px", marginBottom: "20px", marginRight: "10px", marginLeft: "50px" }}>
+            <input type="text" placeholder="Från år..." onChange={this.handleYearInput1} />
           </div>
-          <div className="ui input" 
-              style={{marginTop:"20px",marginRight:"20px"}}>
-              <input type ="text" placeholder="Till år..." onChange={this.handleYearInput2} />
+          <div className="ui input"
+            style={{ marginTop: "20px", marginRight: "10px" }}>
+            <input className="input" type="text" placeholder="Till år..." onChange={this.handleYearInput2} />
           </div>
-          <button className= "ui primary button" onClick={() => this.handleYearFilter(
+          <button className="ui primary button" onClick={() => this.handleYearFilter(
           )}>Visa år</button>
         </div>
 

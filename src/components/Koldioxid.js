@@ -3,8 +3,9 @@ import {  Jumbotron, Row, Col} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import FactoryPic from '../images/koldioxid.jpeg'
+import CO2 from '../images/koldioxid.jpeg'
 import Co2Emissions from './KoldioxidData'
+import RullGardin from './Accordion'
 
 export default class Koldioxid extends Component {
     render() {
@@ -37,12 +38,15 @@ export default class Koldioxid extends Component {
                 </p>
                     </Col>
                     <Col>
-                        <img className="jumbotronpic2" src={FactoryPic} alt="Tillfällig bild" />
+                        <img className="jumbotronpic2" src={CO2} alt="Koldioxidets kretslopp" />
                     </Col>
                 </Row>
                 <Row>>
                 <Col>
                     <Co2Emissions />
+                </Col>
+                <Col className="col_rull">
+                    <RullGardin />
                 </Col>
                 </Row>
             </Jumbotron>
