@@ -21,22 +21,23 @@ export default class Temperatur extends Component {
                 <Col className="coltext">
                 <h1>Temperaturens påverkan</h1>
                 <p>
-                Under de senaste 100 åren har jordens medeltemperatur ökat med nästan 1 grad. Nu är målet att den inte skall bli 
-                mer än 2 grader. Ibland kan det kännas att en grad inte är så mycket. Men en grads medeltemperatur betyder i 
-                själva verket flera graders variation runt om i världen. Extrema väderförhållanden kommer att öka. Vi hör redan 
-                idag om ökade stormar, mer torka och katastrofer runt om i världen.
+                Under de senaste 100 åren har jordens medeltemperatur ökat med nästan 1 grad. Nu är målet att temperaturökningen inte
+                ska bli mer än 2 grader. Ibland kan det kännas som att 1 grad inte är så mycket. Men 1 grad högre medeltemperatur 
+                betyder i själva verket flera graders variation runt om i världen. Det gör att extrema väderförhållanden, så 
+                som stormar och torka, blir vanligare.
+                
                 </p>
                 <p>
                 Många ekosystem är oerhört känsliga för temperaturförändringar och redan nu har över hälften av världens alla 
-                ekosystem påverkats, då människan höjt temperaturen med 1 grad.  Forskning visar att om temperaturen ökar mer 
-                än 3 grader, så ökar den därefter av egen kraft och människan kan inte stoppa det. 
+                ekosystem påverkats av den temperaturökning som har skett. Forskning visar att om temperaturen ökar mer 
+                än 3 grader, så ökar den därefter av egen kraft och vi människor kan då inte stoppa ytterligare temperaturökning. 
                 </p>
                 </Col>
                 <Col>
                     {/* <img className="jumbotronpic" src={SkyPic} alt="Tillfällig bild" /> */}
                 </Col>
                 </Row>
-                <Row>
+                <Row className="rowbottom">
                 <Col>
                     <TemperaturData />
                 </Col>

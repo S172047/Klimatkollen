@@ -20,7 +20,7 @@ export default class Koldioxid extends Component {
                 </Row>
                 <Row>
                     <Col className="coltext">
-                <h1>Utsläpp av koldioxid och hur det påverkar klimatet</h1>
+                <h1>Koldioxidutsläpp och hur det påverkar klimatet</h1>
                 <p>
                 Koldioxid är en viktig gas för växter. Du har säkert hört om fotosyntesen, där växter med hjälp av 
                 solenergi och vatten omvandlar koldioxid till näring för växterna. Restprodukten är syre som används 
@@ -41,7 +41,7 @@ export default class Koldioxid extends Component {
                         <img className="jumbotronpic2" src={CO2} alt="Koldioxidets kretslopp" />
                     </Col>
                 </Row>
-                <Row>>
+                <Row className="rowbottom">
                 <Col>
                     <Co2Emissions />
                 </Col>

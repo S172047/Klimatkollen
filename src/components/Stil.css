@@ -126,3 +126,7 @@ h3 {
 .alignleft {
     text-align: left !important;
 }
+
+.rowbottom {
+    margin-bottom: 7vh;
+}

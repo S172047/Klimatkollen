@@ -100,7 +100,7 @@ handleYearFilter = () => {
       <React.Fragment>
         <div className="outside div" style={{width:"100%"}}>
           <div className="ui input"
-            style={{ marginTop: "20px", marginBottom: "20px", marginRight: "10px", marginLeft: "50px" }}>
+            style={{ marginBottom: "20px", marginRight: "10px", marginLeft: "80px" }}>
             <input type="text" placeholder="Från år..." onChange={this.handleYearInput1} />
           </div>
           <div className="ui input"
@@ -115,9 +115,7 @@ handleYearFilter = () => {
           width={600}
           height={300}
           data={BarChartData}
-          margin={{
-            top: 5, right: 20, left: 20, bottom: 5,
-          }}>
+          >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
