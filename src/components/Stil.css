@@ -19,6 +19,10 @@ body {
     margin-left: 1vw;
 }
 
+.navbar-collapse {
+    padding-right: 1vw !important;
+}
+
 .buttons { /* Knappar på Hem */
     width: 15vw;
     margin-top: 12vh;
@@ -26,7 +30,7 @@ body {
     margin-left: 1.5vw;
 }
 
-a:hover img {
+.buttons:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
