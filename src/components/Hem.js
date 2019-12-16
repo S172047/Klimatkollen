@@ -30,15 +30,14 @@ export default class Hem extends Component {
                     <Tooltip id={`tooltip-${placement}`}>
                       <div className="alignleft">
                         <p>
-                          Det här är Klimatkollen. Här kan du lära dig om
-                          klimatförändringar. Du kan välja mellan tre olika
-                          områden med information och diagram för att jämföra
-                          hur klimatet har förändrats genom åren.
+                        Välkommen till Klimatkollen!
                         </p>
                         <p>
-                          Välj mellan <strong>Utsläpp</strong>,{" "}
-                          <strong>Temperatur</strong> och{" "}
-                          <strong>Havsnivåer</strong> för att se mer.
+                        Här kan du lära dig om klimatförändringar och hur det påverkar livet på jorden. Utforska gärna
+                        diagrammen och jämför den historiska utvecklingen.
+                        </p>
+                        <p>
+                        Och du testa gärna våran quiz också!
                         </p>
                       </div>
                     </Tooltip>

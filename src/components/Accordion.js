@@ -40,8 +40,7 @@ export default class RullGardin extends Component {
                         <Accordion.Collapse eventKey="2">
                             <Card.Body>
                             Cement är ett viktigt råmaterial i byggnadsindustrin och används i stor utsträckning vid 
-                            framställning av betong och murbruk. Dess viktigaste egenskap är att den blir väldigt hård, 
-                            när den blandas med vatten. Cement framställs genom uppvärmning av kalksten och lera. Då 
+                            framställning av betong och murbruk. Cement framställs genom uppvärmning av kalksten och lera. Då 
                             uppvärmningen kräver värme upp till 1500 grader Celsius är framställningen mycket energikrävande 
                             och förbränningen leder till höga halter av koldioxid.
                             </Card.Body>

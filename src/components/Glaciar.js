@@ -21,19 +21,25 @@ export default class Glaciar extends Component {
                 <Col className="coltext">
                 <h1>Smältande glaciärer och stigande havsnivå</h1>
                 <p>
-                På jorden finns det drygt 21 miljoner kubikkilometer (km3) is. Om all världens is smälter och rinner ner i havet, 
-                skulle havsnivån stiga med 110 meter.
+                På jorden finns det drygt 21 miljoner kubikkilometer (km3) is. Det är världens största sötvattenreserv. 
+                När is smälter blandas sötvatten med havsvatten och sötvattenreserven minskar. Om all världens is smälter 
+                och rinner ner i havet, skulle havsnivån stiga med 110 meter.
                 </p>
                 <p>
-                Före år 2100 beräknar forskarna att havsytan kommer att stiga över en meter. Det ger konsekvenser 
-                för hundratals miljoner människor som bor vid havet runtom i världen. Speciellt drabbade blir folk som 
-                bor på små önationer.
+                Före år 2100 beräknar forskarna att havsytan kommer att stiga över en meter. Det påverkar hundratalsmiljoner 
+                människor som bor vid havet runtom i världen. Speciellt drabbade blir folk som bor i små Stilla havsnationer, 
+                där öns allra högsta punkt ligger bara några meter över havet. Deras hem riskerar att försvinna för alltid!
                 </p>
                 <p>
-                Mellan år 1945 och 2010 har havsnivån ökat 149,3 mm. Det vill säga ca 15 centimeter. Av dessa har 43% 
-                eller 6,5 cm skett under en period av 20 år, år 1990 till 2010. Under tidsperioden 1945 till 2010 har jordens 
-                glaciärer minskat med –25,158 vilket betyder 25 tusen miljarder kubikmeter is. Det är lika med 0,12% av 
-                världens 21 miljoner kubikkilometer is.
+                Men även många stora städer är byggda vid havet. En ökning av havsnivån på ett par meter skulle förvandla väldigt 
+                många ställen på jorden. Inte bara städer utan även vägar och järnvägar skulle hamna under vatten. Stora delar av 
+                många kustnära svenska städer skulle försvinna under ytan. Även stora städer som Stockholm, Göteborg och Malmö 
+                skulle drabbas hårt.  
+                </p>
+                <p>
+                När glaciärer smälter kommer den mörkare marken fram. En mörk yta värms upp snabbare än en vit yta. Det är ett 
+                exempel hur klimatförändringar vid en viss situation skyndas på av förändringen i sig. Förutom människan, drabbas 
+                många djurarter av förändringarna, då deras naturliga livsmiljöer förändras eller försvinner. 
                 </p>
                 </Col>
                 <Col>

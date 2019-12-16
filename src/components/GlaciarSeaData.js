@@ -52,7 +52,7 @@ constructor() {
     return (
       <React.Fragment>
         <h2>
-          Glaciärstorlek i jämförelse med havsnivå från år 1945 till 2010
+          Glaciärernas minskning och ökningen av havsnivån
         </h2>
         {/* <ResponsiveContainer width="80vw" height="40vh"> */}
         <LineChart

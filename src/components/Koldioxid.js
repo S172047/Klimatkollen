@@ -36,6 +36,18 @@ export default class Koldioxid extends Component {
                 Plötsligt finns det mycket mer koldioxid i luften än vad växtriket efterfrågar. Det extra koldioxid 
                 bildar ett extra gaslager, som ett växthus, som hindrar värme att lämna atmosfären.
                 </p>
+                <p>
+                Det är tack vare fossila bränslen som vi har kunnat utveckla världen så snabbt sedan 1800-talet. 
+                Fossila bränslen har gett människan en enorm kraft att både åka snabbare, producera mer saker, justera 
+                värme, kyla och mycket mer. Hela den moderna världen är uppbyggd på fossila bränslen. Fortsatt står de som 
+                källa för nästan 80 % av all världens energi. 
+                </p>
+                <p>
+                För att kunna minska de fossila utsläppen krävs alternativa energiformer, det som kallas för förnybar energi. 
+                Exempel på förnybar energi är sol, vind-och vattenkraft. Det tar lång tid att växla energikällor i hela världen. 
+                Därför kommer det behövas ny teknik som under tiden tar bort koldioxid ur atmosfären. Det heter ”negativa utsläpp” 
+                och är mycket positivt, trots namnet.
+                </p>
                     </Col>
                     <Col>
                         <img className="jumbotronpic2" src={CO2} alt="Koldioxidets kretslopp" />

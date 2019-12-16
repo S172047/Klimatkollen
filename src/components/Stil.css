@@ -75,6 +75,7 @@ h3 {
 
 .col_rull {
     margin-right: 2.5vw;
+    margin-top: 7vh;
 }
 
 .input {
@@ -109,18 +110,19 @@ h3 {
 
 .jumbotronpic2 {
     margin-left: 3vw;
-    margin-top: 0vh;
+    margin-top: 2.5vh;
+    margin-bottom: 6vh;
     width: 35vw;
 }
 
 .hoverknapp {
     width: 2vw;
     margin-left: 1.5vw;
-    opacity: 85%;
+    opacity: 15%;
 }
 
 .hoverknapp:hover {
-    opacity: 100%;
+    opacity: 0%;
 }
 
 .alignleft {

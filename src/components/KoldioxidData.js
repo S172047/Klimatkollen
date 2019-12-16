@@ -49,14 +49,15 @@ this.setState({
   indexYear2: index2,
   yearInputValue2: Year
 })
-// console.log(this.state.indexYear1)
-console.log(this.state.indexYear2)
 };
 
 
 handleYearFilter = () => {
-  if (this.state.indexYear1 !== -1 && this.state.indexYear2 !== -1) {
-    {
+  if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2015) {
+      alert("Fyll i ett årtal mellan 1751 och 2014")
+      return;
+  }
+  else {
       this.setState(
         {indexYear1handled: this.state.indexYear1}
       );
@@ -69,8 +70,9 @@ handleYearFilter = () => {
       this.setState(
         {year2state: this.state.yearInputValue2}
       );
-    } 
 }
+console.log(this.state.yearInputValue1);
+console.log(this.state.yearInputValue2);
 }
 
   render() {
