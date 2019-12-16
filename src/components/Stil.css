@@ -118,11 +118,11 @@ h3 {
 .hoverknapp {
     width: 2vw;
     margin-left: 1.5vw;
-    opacity: 15%;
+    opacity: 0.85;
 }
 
 .hoverknapp:hover {
-    opacity: 0%;
+    opacity: 1;
 }
 
 .alignleft {
