@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Klimatkollen/static/css/main.4e0558fa.chunk.css",
-    "main.js": "/Klimatkollen/static/js/main.c934756b.chunk.js",
-    "main.js.map": "/Klimatkollen/static/js/main.c934756b.chunk.js.map",
+    "main.css": "/Klimatkollen/static/css/main.fa0e9fb9.chunk.css",
+    "main.js": "/Klimatkollen/static/js/main.a5823aad.chunk.js",
+    "main.js.map": "/Klimatkollen/static/js/main.a5823aad.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
     "runtime-main.js.map": "/Klimatkollen/static/js/runtime-main.3d194f67.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Klimatkollen/static/css/2.17e5ed98.chunk.css",
     "static/js/2.63a8c3ee.chunk.js": "/Klimatkollen/static/js/2.63a8c3ee.chunk.js",
     "static/js/2.63a8c3ee.chunk.js.map": "/Klimatkollen/static/js/2.63a8c3ee.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.bca1722bcdcdab666c2edfd487dae77c.js": "/Klimatkollen/precache-manifest.bca1722bcdcdab666c2edfd487dae77c.js",
+    "precache-manifest.1ea60f50a61718a52f3423d7bafa5ad5.js": "/Klimatkollen/precache-manifest.1ea60f50a61718a52f3423d7bafa5ad5.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.4e0558fa.chunk.css.map": "/Klimatkollen/static/css/main.4e0558fa.chunk.css.map",
+    "static/css/main.fa0e9fb9.chunk.css.map": "/Klimatkollen/static/css/main.fa0e9fb9.chunk.css.map",
     "static/media/Stil.css": "/Klimatkollen/static/media/bg_rymd.afcd91e4.jpg",
     "static/media/button_glaciar.png": "/Klimatkollen/static/media/button_glaciar.d0336467.png",
     "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.3c5fea2b.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.3d194f67.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.63a8c3ee.chunk.js",
-    "static/css/main.4e0558fa.chunk.css",
-    "static/js/main.c934756b.chunk.js"
+    "static/css/main.fa0e9fb9.chunk.css",
+    "static/js/main.a5823aad.chunk.js"
   ]
 }
