@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Klimatkollen/static/css/main.c114d3bd.chunk.css",
+    "main.css": "/Klimatkollen/static/css/main.6d7a7ca8.chunk.css",
     "main.js": "/Klimatkollen/static/js/main.18687b46.chunk.js",
     "main.js.map": "/Klimatkollen/static/js/main.18687b46.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
@@ -9,10 +9,10 @@
     "static/js/2.63a8c3ee.chunk.js": "/Klimatkollen/static/js/2.63a8c3ee.chunk.js",
     "static/js/2.63a8c3ee.chunk.js.map": "/Klimatkollen/static/js/2.63a8c3ee.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.d4875de27160afac927747891444540e.js": "/Klimatkollen/precache-manifest.d4875de27160afac927747891444540e.js",
+    "precache-manifest.ff43286ab5b09abc7feafb07d860b4cd.js": "/Klimatkollen/precache-manifest.ff43286ab5b09abc7feafb07d860b4cd.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.c114d3bd.chunk.css.map": "/Klimatkollen/static/css/main.c114d3bd.chunk.css.map",
+    "static/css/main.6d7a7ca8.chunk.css.map": "/Klimatkollen/static/css/main.6d7a7ca8.chunk.css.map",
     "static/media/Stil.css": "/Klimatkollen/static/media/bg_rymd.afcd91e4.jpg",
     "static/media/button_glaciar.png": "/Klimatkollen/static/media/button_glaciar.d0336467.png",
     "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.3c5fea2b.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.3d194f67.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.63a8c3ee.chunk.js",
-    "static/css/main.c114d3bd.chunk.css",
+    "static/css/main.6d7a7ca8.chunk.css",
     "static/js/main.18687b46.chunk.js"
   ]
 }
