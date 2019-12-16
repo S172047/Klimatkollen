@@ -37,7 +37,7 @@ export default class Hem extends Component {
                         diagrammen och jämför den historiska utvecklingen.
                         </p>
                         <p>
-                        Och du testa gärna våran quiz också!
+                        Och du, testa gärna våran quiz också!
                         </p>
                       </div>
                     </Tooltip>

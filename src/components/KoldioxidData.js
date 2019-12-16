@@ -54,8 +54,20 @@ this.setState({
 
 handleYearFilter = () => {
   if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2011) {
-      alert("Fyll i ett årtal mellan 1751 och 2010")
+      alert("Oj nu blev det fel. Fyll i ett årtal från 1751 till 2010")
       return;
+  }
+  if (isNaN(this.state.yearInputValue1) || isNaN(this.state.yearInputValue2)) {
+    alert("Oj nu blev det fel. Fyll i ett korrekt årtal från 1751 till 2010")
+    return;
+  }
+  if (parseInt(this.state.yearInputValue1) > parseInt(this.state.yearInputValue2)){
+    alert("Oj. Årtalet i första fältet måste vara lägre än årtalet i andra fältet")
+    return;
+  }
+  if (parseInt(this.state.yearInputValue1) == parseInt(this.state.yearInputValue2)){
+    alert("Oj. Varför skriver du samma årtal i båda fälten? Försök igen")
+    return;
   }
   else {
       this.setState(
