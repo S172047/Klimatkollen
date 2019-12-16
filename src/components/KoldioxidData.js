@@ -53,8 +53,8 @@ this.setState({
 
 
 handleYearFilter = () => {
-  if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2015) {
-      alert("Fyll i ett årtal mellan 1751 och 2014")
+  if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2011) {
+      alert("Fyll i ett årtal mellan 1751 och 2010")
       return;
   }
   else {
