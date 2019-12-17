@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SeaGlac from './GlaciarSeaData'
-import GlaciarPic from '../images/isberg.jpeg'
+import GlaciarPic from '../images/isberg2.jpeg'
 import AudioPlayer from './AudioPlayer'
 import Ljudfil from '../audio/glaciar.mp3'
 
