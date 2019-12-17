@@ -1,64 +1,68 @@
 import React, { Component } from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
-import SeaLevelData from '../json/Dataset4_SeaLevel'
-import GlaciarData from '../json/Dataset3_GlaciersSize'
-
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend
+} from "recharts";
+import SeaLevelData from "../json/Dataset4_SeaLevel";
+import GlaciarData from "../json/Dataset3_GlaciersSize";
+ 
 export default class SeaGlacLevel extends Component {
-
-constructor() {
-  super()
-  this.state = {
-    glaciar: GlaciarData,
-    sea: SeaLevelData
+  constructor() {
+    super();
+    this.state = {
+      glaciar: GlaciarData,
+      sea: SeaLevelData
+    };
   }
-}
-
+ 
   render() {
-
     let glaciercont = this.state.glaciar.filter(
       x => x.Year > 1944 && x.Year <= 2010
     );
     let sealevelcont = this.state.sea.filter(
       x => parseInt(x.Time) > 1944 && parseInt(x.Time) <= 2010
     );
-
+ 
     let series = [
       {
         name: "Glaciärstorlek",
         data: [],
-        color: "blue"
+        color: "#88D1FF",
+        fillcolor: "lightblue",
+        opacity: 0.15
       },
       {
         name: "Havsnivå",
         data: [],
-        color: "orange"
+        color: "darkslateblue",
+        fillcolor: "#88D1FF",
+        opacity: 0.5
       }
     ];
-
+ 
     glaciercont.map(data =>
       series[0].data.push({
         Year: parseInt(data.Year),
-        value: data["Mean cumulative mass balance"]
+        value: [-90, data[("Mean cumulative mass balance")]]
       })
     );
-
+ 
     sealevelcont.map(data =>
       series[1].data.push({
         Year: parseInt(data.Time),
-        value: data.GMSL
+        value: [-90, data.GMSL]
       })
     );
-
+ 
     return (
       <React.Fragment>
-        <h2>
-          Glaciärernas minskning och ökningen av havsnivån
-        </h2>
-        {/* <ResponsiveContainer width="80vw" height="40vh"> */}
-        <LineChart
-          width={1100}
-          height={400}
-        >
+        <h2>Glaciärernas minskning och ökningen av havsnivån från år 1945 till 2010 </h2>
+        <AreaChart width={1100} height={400}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis
             dataKey="Year"
@@ -66,20 +70,30 @@ constructor() {
             allowDuplicatedCategory={false}
           />
           <YAxis dataKey="value" />
-          <Tooltip cursor={{ stroke: "green", strokeWidth: 3 }} />
+          <Tooltip 
+          cursor={{ stroke: "black", strokeWidth: 3 }} 
+          formatter={function(value){
+            return value[1];
+          }} 
+          labelFormatter={function(value){
+            return "Year: " + value;
+          }}
+          />
           <Legend />
           {series.map(s => (
-            <Line
+            <Area
+              type="monotone"
               dataKey="value"
               data={s.data}
               name={s.name}
               key={s.name}
               stroke={s.color}
+              fill={s.fillcolor}
+              fillOpacity={s.opacity}
             />
           ))}
-        </LineChart>
-        {/* </ResponsiveContainer> */}
+        </AreaChart>
       </React.Fragment>
-    )
+    );
   }
 }

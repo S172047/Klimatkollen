@@ -3,7 +3,7 @@ import {  Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-// import SkyPic from '../images/sky.jpg'
+// import TempPic from '../images/temp.jpeg'
 import TemperaturData from "./TemperaturData"
 
 export default class Temperatur extends Component {
@@ -43,7 +43,7 @@ export default class Temperatur extends Component {
                 </p>
                 </Col>
                 <Col>
-                    {/* <img className="jumbotronpic" src={SkyPic} alt="Tillfällig bild" /> */}
+                    {/* <img className="jumbotronpic" src={TempPic} alt="Bild som visar växthuseffekten" /> */}
                 </Col>
                 </Row>
                 <Row className="rowbottom">

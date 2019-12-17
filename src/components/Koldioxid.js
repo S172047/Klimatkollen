@@ -6,6 +6,8 @@ import ButtonClose from '../images/closebutton.png'
 import CO2 from '../images/koldioxid.jpeg'
 import Co2Emissions from './KoldioxidData'
 import RullGardin from './Accordion'
+import AudioPlayer from './AudioPlayer'
+import Ljudfil from '../audio/Test.mp3'
 
 export default class Koldioxid extends Component {
     render() {
@@ -48,6 +50,7 @@ export default class Koldioxid extends Component {
                 Därför kommer det behövas ny teknik som under tiden tar bort koldioxid ur atmosfären. Det heter ”negativa utsläpp” 
                 och är mycket positivt, trots namnet.
                 </p>
+                <AudioPlayer ljud={{fil: Ljudfil}} />
                     </Col>
                     <Col>
                         <img className="jumbotronpic2" src={CO2} alt="Koldioxidets kretslopp" />

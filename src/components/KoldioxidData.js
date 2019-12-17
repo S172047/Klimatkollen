@@ -14,8 +14,8 @@ constructor() {
     indexYear2: 0,
     indexYear1handled: 219,
     indexYear2handled: 259,
-    yearInputValue1: 1970,
-    yearInputValue2: 2010
+    yearInputValue1: 0,
+    yearInputValue2: 0
     }
 }
 
@@ -62,11 +62,15 @@ handleYearFilter = () => {
     return;
   }
   if (parseInt(this.state.yearInputValue1) > parseInt(this.state.yearInputValue2)){
-    alert("Oj. Årtalet i första fältet måste vara lägre än årtalet i andra fältet")
+    alert("Oj! Årtalet i första fältet måste vara lägre än årtalet i andra fältet")
     return;
   }
-  if (parseInt(this.state.yearInputValue1) == parseInt(this.state.yearInputValue2)){
-    alert("Oj. Varför skriver du samma årtal i båda fälten? Försök igen")
+  if (parseInt(this.state.yearInputValue1) === parseInt(this.state.yearInputValue2)){
+    alert("Oj! Varför skriver du samma årtal i båda fälten? Försök igen")
+    return;
+  }
+  if (parseInt(this.state.indexYear1) === -1 && parseInt(this.state.indexYear2) === -1) {
+    alert("Oj! Du måste fylla i årtal i de båda fälten. Gör ett nytt försök")
     return;
   }
   else {
@@ -83,8 +87,7 @@ handleYearFilter = () => {
         {year2state: this.state.yearInputValue2}
       );
 }
-console.log(this.state.yearInputValue1);
-console.log(this.state.yearInputValue2);
+console.log(this.state.indexYear1)
 }
 
   render() {

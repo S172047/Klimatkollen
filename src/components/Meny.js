@@ -19,10 +19,10 @@ export default class Meny extends Component {
                                  <DropdownButton
                                 drop={direction}
                                 variant="secondary"
-                                title={` Alternativ `}
+                                title={` Innehåll`}
                                 id={`dropdown-button-drop-${direction}`}
                                 key={direction}>
-                                    <Dropdown.Item eventKey="1">
+                                    <Dropdown.Item>
                                         <Link className="linkstyle" to="/koldioxid">Utsläpp</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item eventKey="2">

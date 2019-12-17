@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SeaGlac from './GlaciarSeaData'
-// import GlaciarPic from '../images/glaciars.jpg'
+import GlaciarPic from '../images/isberg.jpeg'
 
 export default class Glaciar extends Component {
     render() {
@@ -43,12 +43,16 @@ export default class Glaciar extends Component {
                 </p>
                 </Col>
                 <Col>
-                    {/* <img className="jumbotronpic" src={GlaciarPic} alt="Tillfällig bild" /> */}
+                    <img className="jumbotronpic" src={GlaciarPic} alt="Smältande glaciär och isberg" />
                 </Col>
                 </Row>
                 <Row className="rowbottom">
                 <Col>
                     <SeaGlac />
+                    <p className="glac-text">
+                    Diagrammet ovan berättar att havsnivån har höjts med nästan 15 centimeter mellan<br/> åren 1945 och 2010.
+                    Under samma tid har 25 000 kubikkilometer (km3) is smält.
+                    </p>
                 </Col>
                 </Row>
             </Jumbotron>

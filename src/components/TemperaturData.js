@@ -20,7 +20,7 @@ export default class TempDiagram extends Component {
 
   render() {
     let tempCont = this.state.temp
-      .filter(x => x.Year > 1880 && x.Year <= 2016)
+      .filter(x => x.Year >= 1880 && x.Year <= 2016)
       .filter(p => p.Source === "GISTEMP");
 
     const series = [
