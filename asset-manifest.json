@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Klimatkollen/static/css/main.850f71d0.chunk.css",
-    "main.js": "/Klimatkollen/static/js/main.1aea1df4.chunk.js",
-    "main.js.map": "/Klimatkollen/static/js/main.1aea1df4.chunk.js.map",
+    "main.js": "/Klimatkollen/static/js/main.34630eb7.chunk.js",
+    "main.js.map": "/Klimatkollen/static/js/main.34630eb7.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
     "runtime-main.js.map": "/Klimatkollen/static/js/runtime-main.3d194f67.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Klimatkollen/static/css/2.17e5ed98.chunk.css",
     "static/js/2.131019b5.chunk.js": "/Klimatkollen/static/js/2.131019b5.chunk.js",
     "static/js/2.131019b5.chunk.js.map": "/Klimatkollen/static/js/2.131019b5.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.7e846beca5326be1946f9758e2b1ff60.js": "/Klimatkollen/precache-manifest.7e846beca5326be1946f9758e2b1ff60.js",
+    "precache-manifest.d322d4bb448cade40409f1a2c3214aee.js": "/Klimatkollen/precache-manifest.d322d4bb448cade40409f1a2c3214aee.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.850f71d0.chunk.css.map": "/Klimatkollen/static/css/main.850f71d0.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.3c5fea2b.png",
     "static/media/closebutton.png": "/Klimatkollen/static/media/closebutton.5530ad7f.png",
     "static/media/glaciar.mp3": "/Klimatkollen/static/media/glaciar.4e1a4f69.mp3",
-    "static/media/isberg.jpeg": "/Klimatkollen/static/media/isberg.33818ad7.jpeg",
+    "static/media/isberg2.jpeg": "/Klimatkollen/static/media/isberg2.6fc17b3b.jpeg",
     "static/media/jordglob.png": "/Klimatkollen/static/media/jordglob.c2cd7780.png",
     "static/media/koldioxid.jpeg": "/Klimatkollen/static/media/koldioxid.42ce809a.jpeg",
     "static/media/koldioxid.mp3": "/Klimatkollen/static/media/koldioxid.70f43d07.mp3",
@@ -30,6 +30,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.131019b5.chunk.js",
     "static/css/main.850f71d0.chunk.css",
-    "static/js/main.1aea1df4.chunk.js"
+    "static/js/main.34630eb7.chunk.js"
   ]
 }
