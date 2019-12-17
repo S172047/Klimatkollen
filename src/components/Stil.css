@@ -120,6 +120,7 @@ h3 {
 
 .hoverknapp {
     width: 2vw;
+    height: 2vw;
     margin-left: 1.5vw;
     opacity: 0.85;
 }

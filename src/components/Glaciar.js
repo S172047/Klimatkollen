@@ -5,6 +5,8 @@ import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import SeaGlac from './GlaciarSeaData'
 import GlaciarPic from '../images/isberg.jpeg'
+import AudioPlayer from './AudioPlayer'
+import Ljudfil from '../audio/glaciar.mp3'
 
 export default class Glaciar extends Component {
     render() {
@@ -41,6 +43,7 @@ export default class Glaciar extends Component {
                 exempel hur klimatförändringar vid en viss situation skyndas på av förändringen i sig. Förutom människan, drabbas 
                 många djurarter av förändringarna, då deras naturliga livsmiljöer förändras eller försvinner. 
                 </p>
+                <AudioPlayer ljud={{fil: Ljudfil}} />
                 </Col>
                 <Col>
                     <img className="jumbotronpic" src={GlaciarPic} alt="Smältande glaciär och isberg" />

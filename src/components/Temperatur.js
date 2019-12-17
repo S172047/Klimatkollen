@@ -5,6 +5,8 @@ import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 // import TempPic from '../images/temp.jpeg'
 import TemperaturData from "./TemperaturData"
+import AudioPlayer from './AudioPlayer'
+import Ljudfil from '../audio/temperatur.mp3'
 
 export default class Temperatur extends Component {
     render() {
@@ -41,6 +43,7 @@ export default class Temperatur extends Component {
                 alla ekosystem påverkats, då människan höjt temperaturen med 1 grad.  Forskning visar att om temperaturen 
                 ökar mer än 3 grader, så ökar den därefter av egen kraft och människan kan inte stoppa det.
                 </p>
+                <AudioPlayer ljud={{fil: Ljudfil}} />
                 </Col>
                 <Col>
                     {/* <img className="jumbotronpic" src={TempPic} alt="Bild som visar växthuseffekten" /> */}

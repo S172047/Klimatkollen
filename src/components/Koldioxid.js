@@ -7,7 +7,7 @@ import CO2 from '../images/koldioxid.jpeg'
 import Co2Emissions from './KoldioxidData'
 import RullGardin from './Accordion'
 import AudioPlayer from './AudioPlayer'
-import Ljudfil from '../audio/Test.mp3'
+import Ljudfil from '../audio/koldioxid.mp3'
 
 export default class Koldioxid extends Component {
     render() {
