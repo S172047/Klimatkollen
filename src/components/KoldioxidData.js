@@ -4,91 +4,90 @@ import Co2Data from '../json/Dataset1_CO2'
 
 export default class Co2Emissions extends PureComponent {
 
-constructor() {
+  constructor() {
     super()
     this.state = {
-    co2: Co2Data,
-    year1state: 1970,
-    year2state: 2010,
-    indexYear1: 0,
-    indexYear2: 0,
-    indexYear1handled: 219,
-    indexYear2handled: 259,
-    yearInputValue1: 0,
-    yearInputValue2: 0
+      co2: Co2Data,
+      year1state: 1970,
+      year2state: 2010,
+      indexYear1: 0,
+      indexYear2: 0,
+      indexYear1handled: 219,
+      indexYear2handled: 259,
+      yearInputValue1: 0,
+      yearInputValue2: 0
     }
-}
+  }
 
-handleYearInput1 = e => {
-  this.inputYear1(e.target.value);
-};
+  handleYearInput1 = e => {
+    this.inputYear1(e.target.value);
+  };
 
-handleYearInput2 = e =>{
-  this.inputYear2(e.target.value);
-};
+  handleYearInput2 = e => {
+    this.inputYear2(e.target.value);
+  };
 
-//Skapar ett index över innehållet i co2 för att kunna plocka ut ett specifkt år
-inputYear1 = Year => {
-  let index1 = this.state.co2.findIndex(
-    co => co.Year === parseInt(Year) //parseInt gör en String till en Integer  
-  );
-//Sätter innehållet från index på indexYear1
-this.setState({
-  indexYear1: index1,
-  yearInputValue1: Year
-})
+  //Skapar ett index över innehållet i co2 för att kunna plocka ut ett specifkt år
+  inputYear1 = Year => {
+    let index1 = this.state.co2.findIndex(
+      co => co.Year === parseInt(Year) //parseInt gör en String till en Integer  
+    );
+    //Sätter innehållet från index på indexYear1
+    this.setState({
+      indexYear1: index1,
+      yearInputValue1: Year
+    })
 
-};
+  };
 
-inputYear2 = Year => {
-  let index2 = this.state.co2.findIndex(
-    co => co.Year === parseInt(Year)
-  );
+  inputYear2 = Year => {
+    let index2 = this.state.co2.findIndex(
+      co => co.Year === parseInt(Year)
+    );
 
-this.setState({
-  indexYear2: index2,
-  yearInputValue2: Year
-})
-};
+    this.setState({
+      indexYear2: index2,
+      yearInputValue2: Year
+    })
+  };
 
 
-handleYearFilter = () => {
-  if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2011) {
+  handleYearFilter = () => {
+    if (parseInt(this.state.yearInputValue1) <= 1750 || parseInt(this.state.yearInputValue2) >= 2011) {
       alert("Oj nu blev det fel. Fyll i ett årtal från 1751 till 2010")
       return;
-  }
-  if (isNaN(this.state.yearInputValue1) || isNaN(this.state.yearInputValue2)) {
-    alert("Oj nu blev det fel. Fyll i ett korrekt årtal från 1751 till 2010")
-    return;
-  }
-  if (parseInt(this.state.yearInputValue1) > parseInt(this.state.yearInputValue2)){
-    alert("Oj! Årtalet i första fältet måste vara lägre än årtalet i andra fältet")
-    return;
-  }
-  if (parseInt(this.state.yearInputValue1) === parseInt(this.state.yearInputValue2)){
-    alert("Oj! Varför skriver du samma årtal i båda fälten? Försök igen")
-    return;
-  }
-  if (parseInt(this.state.indexYear1) === -1 && parseInt(this.state.indexYear2) === -1) {
-    alert("Oj! Du måste fylla i årtal i de båda fälten. Gör ett nytt försök")
-    return;
-  }
-  else {
+    }
+    if (isNaN(this.state.yearInputValue1) || isNaN(this.state.yearInputValue2)) {
+      alert("Oj nu blev det fel. Fyll i ett korrekt årtal från 1751 till 2010")
+      return;
+    }
+    if (parseInt(this.state.yearInputValue1) > parseInt(this.state.yearInputValue2)) {
+      alert("Oj! Årtalet i första fältet måste vara lägre än årtalet i andra fältet")
+      return;
+    }
+    if (parseInt(this.state.yearInputValue1) === parseInt(this.state.yearInputValue2)) {
+      alert("Oj! Varför skriver du samma årtal i båda fälten? Försök igen")
+      return;
+    }
+    if (parseInt(this.state.indexYear1) === -1 && parseInt(this.state.indexYear2) === -1) {
+      alert("Oj! Du måste fylla i årtal i de båda fälten. Gör ett nytt försök")
+      return;
+    }
+    else {
       this.setState(
-        {indexYear1handled: this.state.indexYear1}
+        { indexYear1handled: this.state.indexYear1 }
       );
       this.setState(
-        {indexYear2handled: this.state.indexYear2}
+        { indexYear2handled: this.state.indexYear2 }
       );
       this.setState(
-        {year1state: this.state.yearInputValue1}
+        { year1state: this.state.yearInputValue1 }
       );
       this.setState(
-        {year2state: this.state.yearInputValue2}
+        { year2state: this.state.yearInputValue2 }
       );
-}
-console.log(this.state.indexYear1)
-}
+    }
+  }
 
   render() {
 
@@ -111,11 +110,11 @@ console.log(this.state.indexYear1)
       {
         name: 'Fast bränsle', E1: emission1["Solid Fuel"], E2: emission2["Solid Fuel"],
       },
-      ];
+    ];
 
     return (
       <React.Fragment>
-        <div className="outside div" style={{width:"100%"}}>
+        <div className="outside div" style={{ width: "100%" }}>
           <div className="ui input"
             style={{ marginBottom: "20px", marginRight: "10px", marginLeft: "80px" }}>
             <input type="text" placeholder="Från år..." onChange={this.handleYearInput1} />
@@ -132,7 +131,7 @@ console.log(this.state.indexYear1)
           width={600}
           height={300}
           data={BarChartData}
-          >
+        >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />

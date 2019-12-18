@@ -64,8 +64,8 @@ export default class TempDiagram extends Component {
               dataKey="value"
               name="Temperatur"
               data={s.data}
-              stroke="red"
-              fill="orange"
+              stroke="orange"
+              fill="#FABF4F"
             />
           ))}
         </AreaChart>

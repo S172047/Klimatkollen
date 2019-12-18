@@ -32,16 +32,16 @@ export default class SeaGlacLevel extends Component {
       {
         name: "Glaciärstorlek (km3)",
         data: [],
-        color: "#88D1FF",
-        fillcolor: "lightblue",
-        opacity: 0.15
+        color: "gray",
+        fillcolor: "#bec9d1",
+        opacity: 0.2
       },
       {
         name: "Havsnivå (mm)",
         data: [],
-        color: "darkslateblue",
+        color: "#88D1FF",
         fillcolor: "#88D1FF",
-        opacity: 0.5
+        opacity: 0.35
       }
     ];
  
