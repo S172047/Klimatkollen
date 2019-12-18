@@ -30,14 +30,14 @@ export default class SeaGlacLevel extends Component {
  
     let series = [
       {
-        name: "Glaciärstorlek",
+        name: "Glaciärstorlek (km3)",
         data: [],
         color: "#88D1FF",
         fillcolor: "lightblue",
         opacity: 0.15
       },
       {
-        name: "Havsnivå",
+        name: "Havsnivå (mm)",
         data: [],
         color: "darkslateblue",
         fillcolor: "#88D1FF",
@@ -76,7 +76,7 @@ export default class SeaGlacLevel extends Component {
             return value[1];
           }} 
           labelFormatter={function(value){
-            return "Year: " + value;
+            return "År: " + value;
           }}
           />
           <Legend />

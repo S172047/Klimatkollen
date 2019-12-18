@@ -40,7 +40,7 @@ export default class TempDiagram extends Component {
     return (
       <React.Fragment>
         <h2>
-          Den globala temperaturens utveckling från år 1880 till 2016
+          Den globala temperaturens utveckling från år 1880 till 2016 i celsius
         </h2>
 
         <AreaChart width={1100} height={400}>
@@ -50,10 +50,10 @@ export default class TempDiagram extends Component {
           <Tooltip
             cursor={{ stroke: "black", strokeWidth: 3 }}
             formatter={function(value, name) {
-              return value[1];
+              return value[1] + " °C";
             }}
             labelFormatter={function(value) {
-              return "Year: " + value;
+              return "År: " + value;
             }}
           />
           <Legend />
