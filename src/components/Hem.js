@@ -36,9 +36,6 @@ export default class Hem extends Component {
                         Här kan du lära dig om klimatförändringar och hur det påverkar livet på jorden. Utforska gärna
                         diagrammen och jämför den historiska utvecklingen.
                         </p>
-                        <p>
-                        Och du, testa gärna våran quiz också!
-                        </p>
                       </div>
                     </Tooltip>
                   }
