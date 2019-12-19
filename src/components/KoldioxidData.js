@@ -114,32 +114,33 @@ export default class Co2Emissions extends PureComponent {
 
     return (
       <React.Fragment>
-        <div className="outside div" style={{ width: "100%" }}>
-          <div className="ui input"
-            style={{ marginBottom: "20px", marginRight: "10px", marginLeft: "80px" }}>
-            <input type="text" placeholder="Från år..." onChange={this.handleYearInput1} />
-          </div>
-          <div className="ui input"
-            style={{ marginTop: "20px", marginRight: "10px" }}>
-            <input className="input" type="text" placeholder="Till år..." onChange={this.handleYearInput2} />
-          </div>
-          <button className="ui primary button" onClick={() => this.handleYearFilter(
-          )}>Visa år</button>
-        </div>
-
+        <h2 className="h2-co2">Välj ett årtal från 1751 till 2010 för att jämföra globala utsläpp</h2>
         <BarChart
           width={600}
           height={300}
           data={BarChartData}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
+          <XAxis dataKey="name"/>
           <YAxis />
           <Tooltip />
-          <Legend />
+          <Legend className="legend" verticalAlign="top"/>
           <Bar name={this.state.year1state} dataKey="E1" fill="#89BE4A" />
           <Bar name={this.state.year2state} dataKey="E2" fill="#FABF4F" />
         </BarChart>
+
+        <div className="outside div" style={{ width: "100%" }}>
+          <div className="ui input" id="input1"
+            style={{ marginTop: "5px", marginBottom: "20px", marginRight: "10px", marginLeft: "80px" }}>
+            <input type="text" placeholder="Från år..." onChange={this.handleYearInput1} />
+          </div>
+          <div className="ui input"
+            style={{ marginTop: "5px", marginRight: "10px" }}>
+            <input className="input" type="text" placeholder="Till år..." onChange={this.handleYearInput2} />
+          </div>
+          <button className="ui primary button" onClick={() => this.handleYearFilter(
+          )}>Visa år</button>
+        </div>
       </React.Fragment>
     );
   }
