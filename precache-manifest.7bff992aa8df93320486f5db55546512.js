@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a884d800727621fbc1802906e634e58",
+    "revision": "c8662194fb2a5cfaade91eb70e544732",
     "url": "/Klimatkollen/index.html"
   },
   {
-    "revision": "1b07e062540f44c0732a",
+    "revision": "3f3fbbfc4070e604f955",
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "adb4c1581833263a5b28",
-    "url": "/Klimatkollen/static/css/main.850f71d0.chunk.css"
+    "revision": "ed2ff5eeefb001f8f26d",
+    "url": "/Klimatkollen/static/css/main.9582f969.chunk.css"
   },
   {
-    "revision": "1b07e062540f44c0732a",
-    "url": "/Klimatkollen/static/js/2.131019b5.chunk.js"
+    "revision": "3f3fbbfc4070e604f955",
+    "url": "/Klimatkollen/static/js/2.4527f611.chunk.js"
   },
   {
-    "revision": "adb4c1581833263a5b28",
-    "url": "/Klimatkollen/static/js/main.caac6965.chunk.js"
+    "revision": "ed2ff5eeefb001f8f26d",
+    "url": "/Klimatkollen/static/js/main.ccba4734.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
@@ -36,8 +36,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/button_temp.3c5fea2b.png"
   },
   {
+    "revision": "af10c230f5d1dcda3e6b8531b16ccc68",
+    "url": "/Klimatkollen/static/media/cement.af10c230.png"
+  },
+  {
     "revision": "5530ad7ff237d50352af93223f7e80fd",
     "url": "/Klimatkollen/static/media/closebutton.5530ad7f.png"
+  },
+  {
+    "revision": "bb2696884f58bdd40b973e3e7e7ff813",
+    "url": "/Klimatkollen/static/media/energigas.bb269688.png"
+  },
+  {
+    "revision": "cdc2b66d197d1efd3110de6194564faa",
+    "url": "/Klimatkollen/static/media/fast.cdc2b66d.png"
+  },
+  {
+    "revision": "123d6f25951734bf0318171929586802",
+    "url": "/Klimatkollen/static/media/flytande.123d6f25.png"
+  },
+  {
+    "revision": "49506642b7e1905c280c5a82b4ca6146",
+    "url": "/Klimatkollen/static/media/gasfackling.49506642.png"
   },
   {
     "revision": "4e1a4f6942648101b92e038b37978ae2",
