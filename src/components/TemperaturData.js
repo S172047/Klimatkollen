@@ -10,7 +10,7 @@ import {
 } from "recharts";
 import TempData from "../json/Dataset2_GlobalTemperature";
 
-export default class TempDiagram extends Component {
+export default class TemperaturData extends Component {
   constructor() {
     super();
     this.state = {

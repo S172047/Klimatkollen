@@ -5,7 +5,7 @@ import Hem from './components/Hem';
 import Koldioxid from './components/Koldioxid';
 import Temperatur from './components/Temperatur';
 import Glaciar from './components/Glaciar';
-import Header from './components/Meny';
+import Header from './components/Header';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 

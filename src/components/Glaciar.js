@@ -3,7 +3,7 @@ import {  Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import SeaGlac from './GlaciarSeaData'
+import GlaciarSeaData from './GlaciarSeaData'
 import GlaciarPic from '../images/isberg2.jpeg'
 import AudioPlayer from './AudioPlayer'
 import Ljudfil from '../audio/glaciar.mp3'
@@ -51,7 +51,7 @@ export default class Glaciar extends Component {
                 </Row>
                 <Row className="rowbottom">
                 <Col>
-                    <SeaGlac />
+                    <GlaciarSeaData />
                     <p className="glac-text">
                     Diagrammet ovan berättar att havsnivån har höjts med nästan 15 centimeter mellan<br/> åren 1945 och 2010.
                     Under samma tid har 25 000 kubikkilometer (km3) is smält.

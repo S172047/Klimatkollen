@@ -11,7 +11,7 @@ import {
 import SeaLevelData from "../json/Dataset4_SeaLevel";
 import GlaciarData from "../json/Dataset3_GlaciersSize";
  
-export default class SeaGlacLevel extends Component {
+export default class GlaciarSeaData extends Component {
   constructor() {
     super();
     this.state = {

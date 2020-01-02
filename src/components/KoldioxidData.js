@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import Co2Data from '../json/Dataset1_CO2'
 
-export default class Co2Emissions extends PureComponent {
+export default class KoldioxidData extends PureComponent {
 
   constructor() {
     super()

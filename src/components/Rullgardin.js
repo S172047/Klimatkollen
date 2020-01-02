@@ -7,7 +7,7 @@ import Cement from '../images/cement.png'
 import GasFackling from '../images/gasfackling.png'
 import FastBransle from '../images/fast.png'
 
-export default class RullGardin extends Component {
+export default class Rullgardin extends Component {
     render() {
         return (
             <div>

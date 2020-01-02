@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
 import CO2 from '../images/koldioxid.jpeg'
-import Co2Emissions from './KoldioxidData'
-import RullGardin from './Accordion'
+import KoldioxidData from './KoldioxidData'
+import RullGardin from './Rullgardin'
 import AudioPlayer from './AudioPlayer'
 import Ljudfil from '../audio/koldioxid.mp3'
 
@@ -58,7 +58,7 @@ export default class Koldioxid extends Component {
                 </Row>
                 <Row className="rowbottom">
                 <Col>
-                    <Co2Emissions />
+                    <KoldioxidData />
                 </Col>
                 <Col className="col_rull">
                     <RullGardin />

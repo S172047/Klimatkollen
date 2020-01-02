@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Stil.css'
 import Logga from '../images/logga.png'
 
-export default class Meny extends Component {
+export default class Header extends Component {
     render() {
         return (
                 <Navbar default collapseOnSelect>
