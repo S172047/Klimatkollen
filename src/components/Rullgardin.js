@@ -20,10 +20,8 @@ export default class Rullgardin extends Component {
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
                             <Card.Body>
-                                Energigaser är bränslen som används i gasform. Metan är den vanligaste naturgasen, 
-                                som förekommer djupt under jordskorpan. Andra naturgaser är etan, propan och butan. 
-                                Alla dessa är fossila bränslen och kallas även ”växthusgaser” eftersom de bidrar till 
-                                uppvärmningen av jorden.
+                                Energigaser är bränslen som används i gasform. Alla dessa är fossila bränslen och kallas även 
+                                ”växthusgaser” eftersom de bidrar till uppvärmningen av jorden.
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
@@ -50,8 +48,8 @@ export default class Rullgardin extends Component {
                             <Card.Body>
                             Cement är ett viktigt råmaterial i byggnadsindustrin och används i stor utsträckning vid 
                             framställning av betong och murbruk. Cement framställs genom uppvärmning av kalksten och lera. Då 
-                            uppvärmningen kräver värme upp till 1500 grader Celsius är framställningen mycket energikrävande 
-                            och förbränningen leder till höga halter av koldioxid.
+                            uppvärmningen kräver värme upp till 1500 grader celsius är framställningen mycket energikrävande 
+                            och förbränningen leder till utsläpp av koldioxid.
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
@@ -75,8 +73,8 @@ export default class Rullgardin extends Component {
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="4">
                             <Card.Body>
-                            Av de fossila bränslen i fast form är stenkol och brunkol de allra mest kända och har använts 
-                            i årtusenden. Kolkraftverk producerar elektricitet och spillenergin används i form av fjärrvärme. 
+                            Av fossila bränslen i fast form är stenkol och brunkol de allra mest kända och har använts 
+                            i årtusenden. Kolkraftverk producerar elektricitet och spillenergin används i form av fjärrvärme.
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>

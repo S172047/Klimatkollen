@@ -21,7 +21,7 @@ export default class Temperatur extends Component {
                 </Row>
                 <Row>
                 <Col className="coltext">
-                <h1>Temperaturökning</h1>
+                <h1>Jordens medeltemperatur ökar</h1>
                 <p>
                 Jordens temperaturökning är skapad av oss människor och kallas för växthuseffekt. 
                 Genom växthuseffekten stannar solens värme kvar på jorden - likt värmen i ett växthus.
@@ -34,13 +34,13 @@ export default class Temperatur extends Component {
                 </p>
                 <p>
                 Under de senaste 100 åren har jordens medeltemperatur ökat med nästan 1 grad. Nu är målet att den inte skall bli 
-                mer än 2 grader. Ibland kan det kännas att en grad inte är så mycket. Men en grads medeltemperatur betyder i 
+                mer än 2 grader. Ibland kan det kanske kännas som att en grad inte är så mycket. Men en grads medeltemperatur betyder i 
                 själva verket flera graders variation runt om i världen. Vi hör redan idag om ökade stormar, mer torka på vissa 
-                ställen och översvämningar på andra ställen. Antalet klimatkatastrofer ökar hela tiden runt om i världen.
+                ställen och översvämningar på andra ställen. Dessa är ibland en direkt konsekvens av klimatförändringarna.
                 </p>
                 <p>
                 Många ekosystem är oerhört känsliga för temperaturförändringar och redan nu har över hälften av världens 
-                alla ekosystem påverkats, då människan höjt temperaturen med 1 grad.  Forskning visar att om temperaturen 
+                alla ekosystem påverkats när jordens medeltemperatur ökat med 1 grad. Forskning visar att om temperaturen 
                 ökar mer än 3 grader, så ökar den därefter av egen kraft och människan kan inte stoppa det.
                 </p>
                 <AudioPlayer ljud={{fil: Ljudfil}} />

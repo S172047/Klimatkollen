@@ -29,20 +29,20 @@ export default class Koldioxid extends Component {
                 av djur och människor. 
                 </p>
                 <p>
-                När växter och djur dör förmultnar de. Efter miljontalsår hamnar alla rester djupt in i marken och 
-                förvandlas till fossiler. Riktigt gamla fossiler blir till petroleum och naturgas. Av dessa kan människan
-                idag utvinna olika slag av bränslen, som alla kallas som ”fossila bränslen”.
+                När växter och djur dör förmultnar de. Efter miljontals år omvandlas de förmultnade resterna som nu finns djupt in 
+                i marken till fossiler. Riktigt gamla fossiler blir till petroleum och naturgas. Av dessa kan människan
+                idag utvinna olika slag av bränslen, som alla kallas för ”fossila bränslen”.
                 </p>
                 <p>
-                När människan använder fossila bränslen frigörs vid förbränningen koldioxid som hamnar ut i luften.
-                Plötsligt finns det mycket mer koldioxid i luften än vad växtriket efterfrågar. Det extra koldioxid 
-                bildar ett extra gaslager, som ett växthus, som hindrar värme att lämna atmosfären.
+                När människan använder fossila bränslen släpps också koldioxid ut i luften.
+                Plötsligt finns det mycket mer koldioxid i luften, mer än vad växtriket efterfrågar. Det extra koldioxidet 
+                bildar ett extra gaslager högt upp i atmosfären. Lite som ett växthus, som hindrar värme att lämna atmosfären.
                 </p>
                 <p>
                 Det är tack vare fossila bränslen som vi har kunnat utveckla världen så snabbt sedan 1800-talet. 
-                Fossila bränslen har gett människan en enorm kraft att både åka snabbare, producera mer saker, justera 
-                värme, kyla och mycket mer. Hela den moderna världen är uppbyggd på fossila bränslen. Fortsatt står de som 
-                källa för nästan 80 % av all världens energi. 
+                Fossila bränslen har gett människan en enorm kraft att åka snabbare, producera mer saker, justera 
+                värme, kyla och mycket mer. Hela den moderna världen är uppbyggd genom fossila bränslen. År 2019 är fossila
+                bränslen fortfarande en mycket stor källa till världens energiförbrukning då de står för 80% av förbrukningen.
                 </p>
                 <p>
                 För att kunna minska de fossila utsläppen krävs alternativa energiformer, det som kallas för förnybar energi. 
