@@ -3,7 +3,7 @@ import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-import CO2 from '../images/koldioxid.jpeg'
+import CO2 from '../images/koldioxid2.jpeg'
 import KoldioxidData from './KoldioxidData'
 import RullGardin from './Rullgardin'
 import AudioPlayer from './AudioPlayer'

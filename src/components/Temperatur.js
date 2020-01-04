@@ -3,7 +3,7 @@ import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
-// import TempPic from '../images/temp.jpeg'
+import TempPic from '../images/temp.jpeg'
 import TemperaturData from "./TemperaturData"
 import AudioPlayer from './AudioPlayer'
 import Ljudfil from '../audio/temperatur.mp3'
@@ -46,7 +46,7 @@ export default class Temperatur extends Component {
                 <AudioPlayer ljud={{fil: Ljudfil}} />
                 </Col>
                 <Col>
-                    {/* <img className="jumbotronpic" src={TempPic} alt="Bild som visar växthuseffekten" /> */}
+                    <img className="jumbotronpic" src={TempPic} alt="Bild som visar växthuseffekten" />
                 </Col>
                 </Row>
                 <Row className="rowbottom">
