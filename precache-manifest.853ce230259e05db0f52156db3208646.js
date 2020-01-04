@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e1c3da9973412d5339dd45429d01970",
+    "revision": "cea571e6f6bf3e5d70ad2f8528c5431c",
     "url": "/Klimatkollen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "aee674ccb9d57a9699c4",
+    "revision": "5b9c74d70460e381b804",
     "url": "/Klimatkollen/static/css/main.9582f969.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/js/2.4527f611.chunk.js"
   },
   {
-    "revision": "aee674ccb9d57a9699c4",
-    "url": "/Klimatkollen/static/js/main.ef94641a.chunk.js"
+    "revision": "5b9c74d70460e381b804",
+    "url": "/Klimatkollen/static/js/main.517b2777.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
