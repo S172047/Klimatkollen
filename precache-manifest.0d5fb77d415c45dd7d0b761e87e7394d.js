@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cea571e6f6bf3e5d70ad2f8528c5431c",
+    "revision": "9fccc8820eb2fde1602b4db9aeb0bd0a",
     "url": "/Klimatkollen/index.html"
   },
   {
-    "revision": "3f3fbbfc4070e604f955",
+    "revision": "42e74bdc2b2758c2d5fd",
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "5b9c74d70460e381b804",
+    "revision": "31e286485573ec22f6f3",
     "url": "/Klimatkollen/static/css/main.9582f969.chunk.css"
   },
   {
-    "revision": "3f3fbbfc4070e604f955",
-    "url": "/Klimatkollen/static/js/2.4527f611.chunk.js"
+    "revision": "42e74bdc2b2758c2d5fd",
+    "url": "/Klimatkollen/static/js/2.e4ca845b.chunk.js"
   },
   {
-    "revision": "5b9c74d70460e381b804",
-    "url": "/Klimatkollen/static/js/main.517b2777.chunk.js"
+    "revision": "31e286485573ec22f6f3",
+    "url": "/Klimatkollen/static/js/main.e7f71f36.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
@@ -64,24 +64,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/glaciar.4e1a4f69.mp3"
   },
   {
-    "revision": "6fc17b3b8e571693233d5f49b58ac547",
-    "url": "/Klimatkollen/static/media/isberg2.6fc17b3b.jpeg"
+    "revision": "dbf5d38e95fdc79f25dbc05fd13f494a",
+    "url": "/Klimatkollen/static/media/isberg.dbf5d38e.jpeg"
   },
   {
     "revision": "c2cd7780a5c610f0b57fe9a8dbaca720",
     "url": "/Klimatkollen/static/media/jordglob.c2cd7780.png"
   },
   {
-    "revision": "42ce809a3cab4a551b62c763e229a6b9",
-    "url": "/Klimatkollen/static/media/koldioxid.42ce809a.jpeg"
-  },
-  {
     "revision": "70f43d07ebe80d5bb75eaa6c4bce0f9d",
     "url": "/Klimatkollen/static/media/koldioxid.70f43d07.mp3"
   },
   {
+    "revision": "182e4bcb1a210b412ae4c9dc3828ab4b",
+    "url": "/Klimatkollen/static/media/koldioxid2.182e4bcb.jpeg"
+  },
+  {
     "revision": "e9b852a105287003eca95c5463aa9386",
     "url": "/Klimatkollen/static/media/logga.e9b852a1.png"
+  },
+  {
+    "revision": "34219a7caa7e9902a434d5bba3566e58",
+    "url": "/Klimatkollen/static/media/temp.34219a7c.jpeg"
   },
   {
     "revision": "eec7939f6d6e6ae950ac542411a6072c",
