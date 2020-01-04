@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Row, Col } from 'react-bootstrap';
+import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'

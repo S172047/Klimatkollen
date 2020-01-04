@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Row, Col} from 'react-bootstrap';
+import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
@@ -36,7 +36,7 @@ export default class Koldioxid extends Component {
                 <p>
                 När människan använder fossila bränslen släpps också koldioxid ut i luften.
                 Plötsligt finns det mycket mer koldioxid i luften, mer än vad växtriket efterfrågar. Det extra koldioxidet 
-                bildar ett extra gaslager högt upp i atmosfären. Lite som ett växthus, som hindrar värme att lämna atmosfären.
+                bildar ett gaslager högt upp i atmosfären. Lite som ett växthus, som hindrar värme att lämna atmosfären.
                 </p>
                 <p>
                 Det är tack vare fossila bränslen som vi har kunnat utveckla världen så snabbt sedan 1800-talet. 

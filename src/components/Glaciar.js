@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  Jumbotron, Row, Col } from 'react-bootstrap';
+import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import ButtonClose from '../images/closebutton.png'
@@ -24,7 +24,7 @@ export default class Glaciar extends Component {
                 <h1>Smältande glaciärer och stigande havsnivå</h1>
                 <p>
                 På jorden finns det drygt 21 miljoner kubikkilometer (km3) is. Det är världens största sötvattenreserv. 
-                När is smälter blandas sötvatten med havsvatten och sötvattenreserven minskar då. Forskarna säger att om 
+                När is smälter blandas sötvatten med havsvatten och sötvattenreserven minskar. Forskarna säger att om 
                 all världens is smälter och rinner ner i havet så skulle havsnivån stiga med 110 meter.
                 </p>
                 <p>
