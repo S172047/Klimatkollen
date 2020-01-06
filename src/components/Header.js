@@ -12,19 +12,21 @@ export default class Header extends Component {
         return (
                 <Navbar default collapseOnSelect>
                         <Navbar.Brand>
-                        <img className="klimatlogga" src={Logga} alt="Logotype" />
+                        <Link to="/hem">
+                            <img className="klimatlogga" src={Logga} alt="Klimatkollen logotype" />
+                        </Link>
                         </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
                             <Link to="/koldioxid">
-                            <img className="smallbuttons" src={KoldioxidButton} alt="Knapp Koldioxid" />
+                                <img className="smallbuttons" src={KoldioxidButton} alt="Knapp Koldioxid" />
                             </Link>
                             <Link to="/temperatur">
-                            <img className="smallbuttons" src={TemperaturButton} alt="Knapp Temperatur" />
+                                <img className="smallbuttons" src={TemperaturButton} alt="Knapp Temperatur" />
                             </Link>
                             <Link to="/glaciar">
-                            <img className="smallbuttons" src={GlaciarButton} alt="Knapp Glaciär" />
+                                <img className="smallbuttons" src={GlaciarButton} alt="Knapp Glaciär" />
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
