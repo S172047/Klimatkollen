@@ -6,6 +6,7 @@ import FlytandeBransle from '../images/flytande.png'
 import Cement from '../images/cement.png'
 import GasFackling from '../images/gasfackling.png'
 import FastBransle from '../images/fast.png'
+import ArrowDown from '../images/arrow_down.png'
 
 export default class Rullgardin extends Component {
     render() {
@@ -16,7 +17,7 @@ export default class Rullgardin extends Component {
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey="0">
                             <img className="co2-ikoner" src={EnergiGas} alt="Ikon för energigas" />
-                            Energigaser
+                            Energigaser <img className="arrowdown" src={ArrowDown} alt="Pil som pekar nedåt" />
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
                             <Card.Body>
@@ -28,7 +29,7 @@ export default class Rullgardin extends Component {
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey="1">
                             <img className="co2-ikoner" src={FlytandeBransle} alt="Ikon för flytande bränsle" />
-                            Flytande bränslen
+                            Flytande bränslen <img className="arrowdown" src={ArrowDown} alt="Pil som pekar nedåt" />
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
                             <Card.Body>
@@ -42,7 +43,7 @@ export default class Rullgardin extends Component {
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey="2">
                             <img className="co2-ikoner" src={Cement} alt="Ikon för cement" />
-                            Cement
+                            Cement <img className="arrowdown" src={ArrowDown} alt="Pil som pekar nedåt" />
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
                             <Card.Body>
@@ -56,7 +57,7 @@ export default class Rullgardin extends Component {
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey="3">
                             <img className="co2-ikoner" src={GasFackling} alt="Ikon för gasfackling" />
-                            Gasfackling
+                            Gasfackling <img className="arrowdown" src={ArrowDown} alt="Pil som pekar nedåt" />
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="3">
                             <Card.Body>
@@ -69,7 +70,7 @@ export default class Rullgardin extends Component {
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey="4">
                             <img className="co2-ikoner" src={FastBransle} alt="Ikon för fast bränsle" />
-                            Fasta bränslen
+                            Fasta bränslen <img className="arrowdown" src={ArrowDown} alt="Pil som pekar nedåt" />
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="4">
                             <Card.Body>

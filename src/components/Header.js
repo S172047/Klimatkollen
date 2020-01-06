@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, DropdownButton, Dropdown, ButtonToolbar } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import Logga from '../images/logga.png'
+import KoldioxidButton from '../images/koldioxid_small.png'
+import TemperaturButton from '../images/temperatur_small.png'
+import GlaciarButton from '../images/glaciar_small.png'
 
 export default class Header extends Component {
     render() {
@@ -11,29 +14,18 @@ export default class Header extends Component {
                         <Navbar.Brand>
                         <img className="klimatlogga" src={Logga} alt="Logotype" />
                         </Navbar.Brand>
-                    <Navbar.Toggle /> {/* Kolla upp om den behövs */}
+                    <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                        <ButtonToolbar>
-                            {['left'].map(direction => (
-                                 <DropdownButton
-                                drop={direction}
-                                variant="secondary"
-                                title={` Innehåll`}
-                                id={`dropdown-button-drop-${direction}`}
-                                key={direction}>
-                                    <Dropdown.Item>
-                                        <Link className="linkstyle" to="/koldioxid">Utsläpp</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">
-                                        <Link className="linkstyle" to="/temperatur">Temperaturer</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item eventKey="3">
-                                        <Link className="linkstyle" to="/glaciar">Havsnivåer</Link>
-                                    </Dropdown.Item>
-                                </DropdownButton>
-                                ))}
-                        </ButtonToolbar>
+                            <Link to="/koldioxid">
+                            <img className="smallbuttons" src={KoldioxidButton} alt="Knapp Koldioxid" />
+                            </Link>
+                            <Link to="/temperatur">
+                            <img className="smallbuttons" src={TemperaturButton} alt="Knapp Temperatur" />
+                            </Link>
+                            <Link to="/glaciar">
+                            <img className="smallbuttons" src={GlaciarButton} alt="Knapp Glaciär" />
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
