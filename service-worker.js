@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Klimatkollen/precache-manifest.3a22002b32d8ee02a35fafe934775fd7.js"
+  "/Klimatkollen/precache-manifest.740dfc378c0c682567bf360d307d999b.js"
 );
 
 self.addEventListener('message', (event) => {
