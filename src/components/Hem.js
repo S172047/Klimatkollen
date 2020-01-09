@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import {
-  OverlayTrigger,
-  Tooltip,
-  ButtonToolbar,
   Container,
   Row,
   Col
@@ -13,7 +10,7 @@ import Jordglob from "../images/jordglob.png";
 import Button1 from "../images/button_koldioxid.png";
 import Button2 from "../images/button_temp.png";
 import Button3 from "../images/button_glaciar.png";
-import infoPic from "../images/info.png";
+// import infoPic from "../images/info.png";
 
 export default class Hem extends Component {
   render() {
@@ -21,7 +18,7 @@ export default class Hem extends Component {
       <Container fluid className="contain">
         <Row>
           <Col>
-            <ButtonToolbar>
+            {/* <ButtonToolbar>
               {["right-start"].map(placement => (
                 <OverlayTrigger
                   key={placement}
@@ -43,7 +40,7 @@ export default class Hem extends Component {
                   <img className="hoverknapp" src={infoPic} alt="Information" />
                 </OverlayTrigger>
               ))}
-            </ButtonToolbar>
+            </ButtonToolbar> */}
           </Col>
         </Row>
         <Row>
