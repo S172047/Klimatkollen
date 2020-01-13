@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Klimatkollen/static/css/main.1f033688.chunk.css",
-    "main.js": "/Klimatkollen/static/js/main.ad9ed269.chunk.js",
-    "main.js.map": "/Klimatkollen/static/js/main.ad9ed269.chunk.js.map",
+    "main.js": "/Klimatkollen/static/js/main.c5192eae.chunk.js",
+    "main.js.map": "/Klimatkollen/static/js/main.c5192eae.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
     "runtime-main.js.map": "/Klimatkollen/static/js/runtime-main.3d194f67.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Klimatkollen/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.963098b4.chunk.js": "/Klimatkollen/static/js/2.963098b4.chunk.js",
-    "static/js/2.963098b4.chunk.js.map": "/Klimatkollen/static/js/2.963098b4.chunk.js.map",
+    "static/js/2.fb78b2c5.chunk.js": "/Klimatkollen/static/js/2.fb78b2c5.chunk.js",
+    "static/js/2.fb78b2c5.chunk.js.map": "/Klimatkollen/static/js/2.fb78b2c5.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.740dfc378c0c682567bf360d307d999b.js": "/Klimatkollen/precache-manifest.740dfc378c0c682567bf360d307d999b.js",
+    "precache-manifest.3ca3a532550610aa9d3b0c188211d385.js": "/Klimatkollen/precache-manifest.3ca3a532550610aa9d3b0c188211d385.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.1f033688.chunk.css.map": "/Klimatkollen/static/css/main.1f033688.chunk.css.map",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d194f67.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.963098b4.chunk.js",
+    "static/js/2.fb78b2c5.chunk.js",
     "static/css/main.1f033688.chunk.css",
-    "static/js/main.ad9ed269.chunk.js"
+    "static/js/main.c5192eae.chunk.js"
   ]
 }
