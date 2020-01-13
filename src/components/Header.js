@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, OverlayTrigger, Tooltip, ButtonToolbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Stil.css'
 import Logga from '../images/logga.png'
 import KoldioxidButton from '../images/koldioxid_small.png'
 import TemperaturButton from '../images/temperatur_small.png'
 import GlaciarButton from '../images/glaciar_small.png'
-
 import infoPic from "../images/info.png";
-import {
-    OverlayTrigger,
-    Tooltip,
-    ButtonToolbar,
-  } from "react-bootstrap";
 
 export default class Header extends Component {
     render() {
@@ -35,10 +29,10 @@ export default class Header extends Component {
                     <Tooltip id={`tooltip-${placement}`}>
                       <div className="alignleft">
                         <p>
-                        Välkommen till Klimatkollen!
+                        Det här är Klimatkollen!
                         </p>
                         <p>
-                        Här kan du lära dig om klimatförändringar och hur det påverkar livet på jorden. Utforska gärna
+                        Här kan du lära dig om klimatförändringen och hur det påverkar livet på jorden. Utforska gärna
                         diagrammen och jämför den historiska utvecklingen.
                         </p>
                       </div>
