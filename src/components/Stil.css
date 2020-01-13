@@ -118,6 +118,45 @@ h3 {
     margin-right: auto;
 }
 
+.fadein {
+    width: 26vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fadein img {
+    width: 26vw;
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 12s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f2 {
+    -webkit-animation-delay: -8s;
+}
+#f3 {
+    -webkit-animation-delay: -4s;
+}
+
 .linkstyle {
     color: black !important;
 }
