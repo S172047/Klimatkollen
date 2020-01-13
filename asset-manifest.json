@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Klimatkollen/static/css/main.1f033688.chunk.css",
-    "main.js": "/Klimatkollen/static/js/main.c5192eae.chunk.js",
-    "main.js.map": "/Klimatkollen/static/js/main.c5192eae.chunk.js.map",
+    "main.css": "/Klimatkollen/static/css/main.ac2394fb.chunk.css",
+    "main.js": "/Klimatkollen/static/js/main.c297f42f.chunk.js",
+    "main.js.map": "/Klimatkollen/static/js/main.c297f42f.chunk.js.map",
     "runtime-main.js": "/Klimatkollen/static/js/runtime-main.3d194f67.js",
     "runtime-main.js.map": "/Klimatkollen/static/js/runtime-main.3d194f67.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Klimatkollen/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.fb78b2c5.chunk.js": "/Klimatkollen/static/js/2.fb78b2c5.chunk.js",
-    "static/js/2.fb78b2c5.chunk.js.map": "/Klimatkollen/static/js/2.fb78b2c5.chunk.js.map",
+    "static/js/2.b36196fe.chunk.js": "/Klimatkollen/static/js/2.b36196fe.chunk.js",
+    "static/js/2.b36196fe.chunk.js.map": "/Klimatkollen/static/js/2.b36196fe.chunk.js.map",
     "index.html": "/Klimatkollen/index.html",
-    "precache-manifest.3ca3a532550610aa9d3b0c188211d385.js": "/Klimatkollen/precache-manifest.3ca3a532550610aa9d3b0c188211d385.js",
+    "precache-manifest.d7f676b909719b2fb0674c0a6bec06a8.js": "/Klimatkollen/precache-manifest.d7f676b909719b2fb0674c0a6bec06a8.js",
     "service-worker.js": "/Klimatkollen/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Klimatkollen/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.1f033688.chunk.css.map": "/Klimatkollen/static/css/main.1f033688.chunk.css.map",
+    "static/css/main.ac2394fb.chunk.css.map": "/Klimatkollen/static/css/main.ac2394fb.chunk.css.map",
     "static/media/Stil.css": "/Klimatkollen/static/media/bg_rymd.afcd91e4.jpg",
     "static/media/button_glaciar.png": "/Klimatkollen/static/media/button_glaciar.d0336467.png",
     "static/media/button_temp.png": "/Klimatkollen/static/media/button_temp.3c5fea2b.png",
@@ -24,7 +24,10 @@
     "static/media/gasfackling.png": "/Klimatkollen/static/media/gasfackling.49506642.png",
     "static/media/glaciar.mp3": "/Klimatkollen/static/media/glaciar.4e1a4f69.mp3",
     "static/media/isberg.jpeg": "/Klimatkollen/static/media/isberg.dbf5d38e.jpeg",
-    "static/media/jordglob.png": "/Klimatkollen/static/media/jordglob.c2cd7780.png",
+    "static/media/jordglob.png": "/Klimatkollen/static/media/jordglob.181405d4.png",
+    "static/media/jordglob_bla.png": "/Klimatkollen/static/media/jordglob_bla.c2cd7780.png",
+    "static/media/jordglob_gul.png": "/Klimatkollen/static/media/jordglob_gul.557d9daf.png",
+    "static/media/jordglob_vit.png": "/Klimatkollen/static/media/jordglob_vit.cd2801fc.png",
     "static/media/koldioxid.mp3": "/Klimatkollen/static/media/koldioxid.70f43d07.mp3",
     "static/media/koldioxid2.jpeg": "/Klimatkollen/static/media/koldioxid2.182e4bcb.jpeg",
     "static/media/logga.png": "/Klimatkollen/static/media/logga.e9b852a1.png",
@@ -34,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d194f67.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.fb78b2c5.chunk.js",
-    "static/css/main.1f033688.chunk.css",
-    "static/js/main.c5192eae.chunk.js"
+    "static/js/2.b36196fe.chunk.js",
+    "static/css/main.ac2394fb.chunk.css",
+    "static/js/main.c297f42f.chunk.js"
   ]
 }
