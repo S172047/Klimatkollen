@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a54b11a7b13612fdf4ac03d3c4323b6b",
+    "revision": "6503086d3806d28834c776485e82ed23",
     "url": "/Klimatkollen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "eaa9aaaa700256ea8b15",
+    "revision": "14d3f2ee44bbd9e2b4a1",
     "url": "/Klimatkollen/static/css/main.adc9be1e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/js/2.b36196fe.chunk.js"
   },
   {
-    "revision": "eaa9aaaa700256ea8b15",
-    "url": "/Klimatkollen/static/js/main.c297f42f.chunk.js"
+    "revision": "14d3f2ee44bbd9e2b4a1",
+    "url": "/Klimatkollen/static/js/main.99e9fafe.chunk.js"
   },
   {
     "revision": "91b4f6b91fba73907497",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/gasfackling.49506642.png"
   },
   {
-    "revision": "4e1a4f6942648101b92e038b37978ae2",
-    "url": "/Klimatkollen/static/media/glaciar.4e1a4f69.mp3"
+    "revision": "47ad522e223fb88e543a36f507310cca",
+    "url": "/Klimatkollen/static/media/glaciar.47ad522e.mp3"
   },
   {
     "revision": "dbf5d38e95fdc79f25dbc05fd13f494a",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/jordglob_vit.cd2801fc.png"
   },
   {
-    "revision": "70f43d07ebe80d5bb75eaa6c4bce0f9d",
-    "url": "/Klimatkollen/static/media/koldioxid.70f43d07.mp3"
+    "revision": "15c6b562e99344bab899d02c7635d244",
+    "url": "/Klimatkollen/static/media/koldioxid.15c6b562.mp3"
   },
   {
     "revision": "182e4bcb1a210b412ae4c9dc3828ab4b",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Klimatkollen/static/media/temp.34219a7c.jpeg"
   },
   {
-    "revision": "eec7939f6d6e6ae950ac542411a6072c",
-    "url": "/Klimatkollen/static/media/temperatur.eec7939f.mp3"
+    "revision": "b33454e8e55f57b2228f133a79fbd696",
+    "url": "/Klimatkollen/static/media/temperatur.b33454e8.mp3"
   }
 ]);
