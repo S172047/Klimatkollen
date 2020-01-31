@@ -35,6 +35,11 @@ export default class Header extends Component {
                         Här kan du lära dig om klimatförändringen och hur det påverkar livet på jorden. Utforska gärna
                         diagrammen och jämför den historiska utvecklingen.
                         </p>
+                        <p>
+                        Klimatkollen är utvecklad genom ett projektarbete på högskolan i Borås. Vi som ligger bakom
+                        är Simon Bergdahl, Oguz Demir, Sara Henriksson, Mikael Sjölin och Sanna Svensson. Vi finns på
+                        Linkedin om ni har frågor eller vill komma i kontakt med oss.
+                        </p>
                       </div>
                     </Tooltip>
                   }
